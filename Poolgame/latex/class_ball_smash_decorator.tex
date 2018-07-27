@@ -1,0 +1,131 @@
+\hypertarget{class_ball_smash_decorator}{}\section{Ball\+Smash\+Decorator Class Reference}
+\label{class_ball_smash_decorator}\index{Ball\+Smash\+Decorator@{Ball\+Smash\+Decorator}}
+
+
+Inherits \mbox{\hyperlink{class_ball_decorator}{Ball\+Decorator}}.
+
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_ball_smash_decorator_1_1_crumb}{Crumb}}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_ball_smash_decorator_a9820f584d49fa51ccf288b6bb4700744}\label{class_ball_smash_decorator_a9820f584d49fa51ccf288b6bb4700744}} 
+{\bfseries Ball\+Smash\+Decorator} (\mbox{\hyperlink{class_ball}{Ball}} $\ast$b)
+\item 
+virtual void \mbox{\hyperlink{class_ball_smash_decorator_ad59848156e8eabad3e561a1d113f7029}{change\+Velocity}} (const Q\+Vector2D \&delta) override
+\begin{DoxyCompactList}\small\item\em change\+Velocity -\/ set the velocity of the ball, as well as generate particles (if applicable) \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_ball_smash_decorator_a017998926f2b3ebdfcf49e074ea86aae}{multiply\+Velocity}} (const Q\+Vector2D \&vel) override
+\begin{DoxyCompactList}\small\item\em multiply\+Velocity -\/ mul the velocity, as well as generate particles, if direction changes. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_ball_smash_decorator_a8cbf47d481100f16f2376670fee9fdcc}{render}} (Q\+Painter \&painter, const Q\+Vector2D \&offset) override
+\begin{DoxyCompactList}\small\item\em render -\/ draw the ball, the smash particles, as well as update the particle effects positions yes. we animate in the render function! )\+:$<$ \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_ball}{Ball}} $\ast$ \mbox{\hyperlink{class_ball_smash_decorator_ab5efc4c2f676224223940a7a4f7dcd77}{copy}} () override
+\begin{DoxyCompactList}\small\item\em copy it is a deep copy function \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_ball_smash_decorator_aa800f137e36d43bdfa86843091905186}\label{class_ball_smash_decorator_aa800f137e36d43bdfa86843091905186}} 
+void {\bfseries add\+Crumbs} (Q\+PointF c\+Pos)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_ball_smash_decorator_af9860ac78866ac55c8548b7fd8581610}\label{class_ball_smash_decorator_af9860ac78866ac55c8548b7fd8581610}} 
+std\+::vector$<$ \mbox{\hyperlink{struct_ball_smash_decorator_1_1_crumb}{Crumb}} $>$ {\bfseries m\+\_\+crumbs}
+\end{DoxyCompactItemize}
+\subsection*{Static Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_ball_smash_decorator_aeef9438a9102847ca841bc657605e88b}\label{class_ball_smash_decorator_aeef9438a9102847ca841bc657605e88b}} 
+static constexpr double {\bfseries fade\+Rate} = 0.\+01
+\item 
+\mbox{\Hypertarget{class_ball_smash_decorator_a947a58aafc3f976931a532974d89abe0}\label{class_ball_smash_decorator_a947a58aafc3f976931a532974d89abe0}} 
+static constexpr double {\bfseries move\+Rate} = 0.\+3
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_ball_smash_decorator_ad59848156e8eabad3e561a1d113f7029}\label{class_ball_smash_decorator_ad59848156e8eabad3e561a1d113f7029}} 
+\index{Ball\+Smash\+Decorator@{Ball\+Smash\+Decorator}!change\+Velocity@{change\+Velocity}}
+\index{change\+Velocity@{change\+Velocity}!Ball\+Smash\+Decorator@{Ball\+Smash\+Decorator}}
+\subsubsection{\texorpdfstring{change\+Velocity()}{changeVelocity()}}
+{\footnotesize\ttfamily void Ball\+Smash\+Decorator\+::change\+Velocity (\begin{DoxyParamCaption}\item[{const Q\+Vector2D \&}]{delta }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+change\+Velocity -\/ set the velocity of the ball, as well as generate particles (if applicable) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em delta} & -\/ the change in velocity \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{class_ball_decorator_a3e4f4d31f6409f018b8b337bcf2bd284}{Ball\+Decorator}}.
+
+\mbox{\Hypertarget{class_ball_smash_decorator_ab5efc4c2f676224223940a7a4f7dcd77}\label{class_ball_smash_decorator_ab5efc4c2f676224223940a7a4f7dcd77}} 
+\index{Ball\+Smash\+Decorator@{Ball\+Smash\+Decorator}!copy@{copy}}
+\index{copy@{copy}!Ball\+Smash\+Decorator@{Ball\+Smash\+Decorator}}
+\subsubsection{\texorpdfstring{copy()}{copy()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_ball}{Ball}} $\ast$ Ball\+Smash\+Decorator\+::copy (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+copy it is a deep copy function 
+
+\begin{DoxyReturn}{Returns}
+A new ball with different address 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_ball_ae6c0731fabb7a45ba36df62a1975661a}{Ball}}.
+
+\mbox{\Hypertarget{class_ball_smash_decorator_a017998926f2b3ebdfcf49e074ea86aae}\label{class_ball_smash_decorator_a017998926f2b3ebdfcf49e074ea86aae}} 
+\index{Ball\+Smash\+Decorator@{Ball\+Smash\+Decorator}!multiply\+Velocity@{multiply\+Velocity}}
+\index{multiply\+Velocity@{multiply\+Velocity}!Ball\+Smash\+Decorator@{Ball\+Smash\+Decorator}}
+\subsubsection{\texorpdfstring{multiply\+Velocity()}{multiplyVelocity()}}
+{\footnotesize\ttfamily virtual void Ball\+Smash\+Decorator\+::multiply\+Velocity (\begin{DoxyParamCaption}\item[{const Q\+Vector2D \&}]{vel }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+multiply\+Velocity -\/ mul the velocity, as well as generate particles, if direction changes. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em vel} & \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{class_ball_decorator_ad1a9139a5c41d17d0eebf007afb984e7}{Ball\+Decorator}}.
+
+\mbox{\Hypertarget{class_ball_smash_decorator_a8cbf47d481100f16f2376670fee9fdcc}\label{class_ball_smash_decorator_a8cbf47d481100f16f2376670fee9fdcc}} 
+\index{Ball\+Smash\+Decorator@{Ball\+Smash\+Decorator}!render@{render}}
+\index{render@{render}!Ball\+Smash\+Decorator@{Ball\+Smash\+Decorator}}
+\subsubsection{\texorpdfstring{render()}{render()}}
+{\footnotesize\ttfamily void Ball\+Smash\+Decorator\+::render (\begin{DoxyParamCaption}\item[{Q\+Painter \&}]{painter,  }\item[{const Q\+Vector2D \&}]{offset }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+render -\/ draw the ball, the smash particles, as well as update the particle effects positions yes. we animate in the render function! )\+:$<$ 
+
+
+\begin{DoxyParams}{Parameters}
+{\em painter} & -\/ the brush to use to draw \\
+\hline
+{\em offset} & -\/ the offset from the window that this ball\textquotesingle{}s pos is. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{class_ball_decorator_af8205f8033b2490ecd3365c24ff5cdeb}{Ball\+Decorator}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+balldecorator.\+h\item 
+balldecorator.\+cpp\end{DoxyCompactItemize}

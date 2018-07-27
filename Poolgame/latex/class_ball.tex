@@ -1,0 +1,202 @@
+\hypertarget{class_ball}{}\section{Ball Class Reference}
+\label{class_ball}\index{Ball@{Ball}}
+
+
+Inherited by \mbox{\hyperlink{class_ball_decorator}{Ball\+Decorator}}, \mbox{\hyperlink{class_composite_ball}{Composite\+Ball}}, and \mbox{\hyperlink{class_stage_one_ball}{Stage\+One\+Ball}}.
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_ball_a81d492bd26dc3b4583da0b709375bbac}\label{class_ball_a81d492bd26dc3b4583da0b709375bbac}} 
+{\bfseries Ball} (Q\+Color colour, Q\+Vector2D position, Q\+Vector2D velocity, double mass, int radius)
+\item 
+virtual void \mbox{\hyperlink{class_ball_a307773aaa59aee90cef8767b0c22deca}{render}} (Q\+Painter \&painter, const Q\+Vector2D \&offset)=0
+\begin{DoxyCompactList}\small\item\em render -\/ draw the ball to the screen \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_ball_a88546ffd1a37b301a5c7085f3eabe8f0}{translate}} (Q\+Vector2D vec)
+\begin{DoxyCompactList}\small\item\em translate -\/ Move the ball\textquotesingle{}s position by provided vector \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_ball_a016798bb733965c67e70b8abfc661e5b}\label{class_ball_a016798bb733965c67e70b8abfc661e5b}} 
+virtual Q\+Vector2D {\bfseries get\+Velocity} () const
+\item 
+\mbox{\Hypertarget{class_ball_a2067db4efee62b1ff618b782fc93818c}\label{class_ball_a2067db4efee62b1ff618b782fc93818c}} 
+virtual void {\bfseries set\+Velocity} (Q\+Vector2D v)
+\item 
+virtual void \mbox{\hyperlink{class_ball_add51f90f60cb862daa8f3f7aa743f933}{change\+Velocity}} (const Q\+Vector2D \&delta)
+\begin{DoxyCompactList}\small\item\em change\+Velocity -\/ modify speed by a constant amount \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_ball_aacc57301046fab52930f7615073136e0}{multiply\+Velocity}} (const Q\+Vector2D \&vel)
+\begin{DoxyCompactList}\small\item\em multiply\+Velocity -\/ apply vector multiplicatively \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_ball_a4b8e6ae922e7c1bfe6ab4568a591580e}\label{class_ball_a4b8e6ae922e7c1bfe6ab4568a591580e}} 
+virtual double {\bfseries get\+Mass} () const
+\item 
+\mbox{\Hypertarget{class_ball_a311b644cb28ee7c864806312ff52a594}\label{class_ball_a311b644cb28ee7c864806312ff52a594}} 
+virtual double {\bfseries get\+Radius} () const
+\item 
+\mbox{\Hypertarget{class_ball_a8861d6e0221d1b4d8468458fc2ec9b3c}\label{class_ball_a8861d6e0221d1b4d8468458fc2ec9b3c}} 
+virtual Q\+Vector2D {\bfseries get\+Position} () const
+\item 
+\mbox{\Hypertarget{class_ball_af656c9b3f7eb0f966f71eb100323559f}\label{class_ball_af656c9b3f7eb0f966f71eb100323559f}} 
+virtual void {\bfseries set\+Position} (Q\+Vector2D p)
+\item 
+\mbox{\Hypertarget{class_ball_a9df4c9fc8620d003cf9717d84e64d5ee}\label{class_ball_a9df4c9fc8620d003cf9717d84e64d5ee}} 
+virtual bool {\bfseries apply\+Break} (const Q\+Vector2D \&, std\+::vector$<$ \mbox{\hyperlink{class_ball}{Ball}} $\ast$$>$ \&)
+\item 
+virtual \mbox{\hyperlink{class_ball}{Ball}} $\ast$ \mbox{\hyperlink{class_ball_ae6c0731fabb7a45ba36df62a1975661a}{copy}} ()=0
+\begin{DoxyCompactList}\small\item\em copy it is a deep copy function \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_ball_ac68ba5765f29f3322c2f2de3fc61e5ae}{change\+Color}} (const Q\+Color \&colour)
+\begin{DoxyCompactList}\small\item\em change\+Color -\/ change the color of the ball \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_ball_a8e53255b6e2867060205bc037fcd6744}{change\+Radius}} (int radius)
+\begin{DoxyCompactList}\small\item\em change\+Radius -\/ change radius \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_ball_a8eeb4e79fca6415f0bacb80457f4487c}\label{class_ball_a8eeb4e79fca6415f0bacb80457f4487c}} 
+Q\+Brush {\bfseries m\+\_\+brush}
+\item 
+\mbox{\Hypertarget{class_ball_a50924825251df59b5715b123ac5f6395}\label{class_ball_a50924825251df59b5715b123ac5f6395}} 
+Q\+Vector2D {\bfseries m\+\_\+pos}
+\item 
+\mbox{\Hypertarget{class_ball_a7c207fe7385c8d519ac85e8e6c9ceae5}\label{class_ball_a7c207fe7385c8d519ac85e8e6c9ceae5}} 
+Q\+Vector2D {\bfseries m\+\_\+velocity}
+\item 
+\mbox{\Hypertarget{class_ball_ac1cab784df7b44bc48d236657c28a199}\label{class_ball_ac1cab784df7b44bc48d236657c28a199}} 
+double {\bfseries m\+\_\+mass}
+\item 
+\mbox{\Hypertarget{class_ball_a5121dd03edea304520c4e9f286be67c0}\label{class_ball_a5121dd03edea304520c4e9f286be67c0}} 
+int {\bfseries m\+\_\+radius}
+\end{DoxyCompactItemize}
+\subsection*{Static Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_ball_a6b8169e6104a6fbcd29f81a7375bb031}\label{class_ball_a6b8169e6104a6fbcd29f81a7375bb031}} 
+static constexpr double {\bfseries Movement\+Epsilon} = 0.\+1
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_ball_ac68ba5765f29f3322c2f2de3fc61e5ae}\label{class_ball_ac68ba5765f29f3322c2f2de3fc61e5ae}} 
+\index{Ball@{Ball}!change\+Color@{change\+Color}}
+\index{change\+Color@{change\+Color}!Ball@{Ball}}
+\subsubsection{\texorpdfstring{change\+Color()}{changeColor()}}
+{\footnotesize\ttfamily void Ball\+::change\+Color (\begin{DoxyParamCaption}\item[{const Q\+Color \&}]{colour }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+change\+Color -\/ change the color of the ball 
+
+
+\begin{DoxyParams}{Parameters}
+{\em colour} & the new color want change to \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_ball_a8e53255b6e2867060205bc037fcd6744}\label{class_ball_a8e53255b6e2867060205bc037fcd6744}} 
+\index{Ball@{Ball}!change\+Radius@{change\+Radius}}
+\index{change\+Radius@{change\+Radius}!Ball@{Ball}}
+\subsubsection{\texorpdfstring{change\+Radius()}{changeRadius()}}
+{\footnotesize\ttfamily void Ball\+::change\+Radius (\begin{DoxyParamCaption}\item[{int}]{radius }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+change\+Radius -\/ change radius 
+
+
+\begin{DoxyParams}{Parameters}
+{\em radius} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_ball_add51f90f60cb862daa8f3f7aa743f933}\label{class_ball_add51f90f60cb862daa8f3f7aa743f933}} 
+\index{Ball@{Ball}!change\+Velocity@{change\+Velocity}}
+\index{change\+Velocity@{change\+Velocity}!Ball@{Ball}}
+\subsubsection{\texorpdfstring{change\+Velocity()}{changeVelocity()}}
+{\footnotesize\ttfamily virtual void Ball\+::change\+Velocity (\begin{DoxyParamCaption}\item[{const Q\+Vector2D \&}]{delta }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+change\+Velocity -\/ modify speed by a constant amount 
+
+
+\begin{DoxyParams}{Parameters}
+{\em delta} & -\/ change in velocity (x,y) \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \mbox{\hyperlink{class_ball_smash_decorator_ad59848156e8eabad3e561a1d113f7029}{Ball\+Smash\+Decorator}}, and \mbox{\hyperlink{class_ball_decorator_a3e4f4d31f6409f018b8b337bcf2bd284}{Ball\+Decorator}}.
+
+\mbox{\Hypertarget{class_ball_ae6c0731fabb7a45ba36df62a1975661a}\label{class_ball_ae6c0731fabb7a45ba36df62a1975661a}} 
+\index{Ball@{Ball}!copy@{copy}}
+\index{copy@{copy}!Ball@{Ball}}
+\subsubsection{\texorpdfstring{copy()}{copy()}}
+{\footnotesize\ttfamily virtual \mbox{\hyperlink{class_ball}{Ball}}$\ast$ Ball\+::copy (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+copy it is a deep copy function 
+
+\begin{DoxyReturn}{Returns}
+A new ball with different address 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{class_ball_smash_decorator_ab5efc4c2f676224223940a7a4f7dcd77}{Ball\+Smash\+Decorator}}, \mbox{\hyperlink{class_composite_ball_ad00585e160c3b030435d567141574fd2}{Composite\+Ball}}, \mbox{\hyperlink{class_ball_sparkle_decorator_a1fd1b10d028cc51c958eb5c9a7cf732c}{Ball\+Sparkle\+Decorator}}, \mbox{\hyperlink{class_cue_ball_a9c2d69ffe6892cba695ef34e360b5dae}{Cue\+Ball}}, and \mbox{\hyperlink{class_stage_one_ball_a8c75b7d3f7e84bc95cbdce60f030787e}{Stage\+One\+Ball}}.
+
+\mbox{\Hypertarget{class_ball_aacc57301046fab52930f7615073136e0}\label{class_ball_aacc57301046fab52930f7615073136e0}} 
+\index{Ball@{Ball}!multiply\+Velocity@{multiply\+Velocity}}
+\index{multiply\+Velocity@{multiply\+Velocity}!Ball@{Ball}}
+\subsubsection{\texorpdfstring{multiply\+Velocity()}{multiplyVelocity()}}
+{\footnotesize\ttfamily virtual void Ball\+::multiply\+Velocity (\begin{DoxyParamCaption}\item[{const Q\+Vector2D \&}]{vel }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+multiply\+Velocity -\/ apply vector multiplicatively 
+
+
+\begin{DoxyParams}{Parameters}
+{\em vel} & -\/ vector \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \mbox{\hyperlink{class_ball_smash_decorator_a017998926f2b3ebdfcf49e074ea86aae}{Ball\+Smash\+Decorator}}, and \mbox{\hyperlink{class_ball_decorator_ad1a9139a5c41d17d0eebf007afb984e7}{Ball\+Decorator}}.
+
+\mbox{\Hypertarget{class_ball_a307773aaa59aee90cef8767b0c22deca}\label{class_ball_a307773aaa59aee90cef8767b0c22deca}} 
+\index{Ball@{Ball}!render@{render}}
+\index{render@{render}!Ball@{Ball}}
+\subsubsection{\texorpdfstring{render()}{render()}}
+{\footnotesize\ttfamily virtual void Ball\+::render (\begin{DoxyParamCaption}\item[{Q\+Painter \&}]{painter,  }\item[{const Q\+Vector2D \&}]{offset }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+render -\/ draw the ball to the screen 
+
+
+\begin{DoxyParams}{Parameters}
+{\em painter} & -\/ Q\+Painter that is owned by the dialog \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{class_ball_smash_decorator_a8cbf47d481100f16f2376670fee9fdcc}{Ball\+Smash\+Decorator}}, \mbox{\hyperlink{class_ball_sparkle_decorator_ad3ee562f1cc9dfa5835bca2fab3d30a7}{Ball\+Sparkle\+Decorator}}, \mbox{\hyperlink{class_composite_ball_a2aefe32771e1cde5dc8f51d779c880eb}{Composite\+Ball}}, \mbox{\hyperlink{class_stage_one_ball_aa4f7f52cb8946b59c201d724dc0dc5bd}{Stage\+One\+Ball}}, \mbox{\hyperlink{class_cue_ball_a915a83205e4cfc720fbd884b045e2f81}{Cue\+Ball}}, and \mbox{\hyperlink{class_ball_decorator_af8205f8033b2490ecd3365c24ff5cdeb}{Ball\+Decorator}}.
+
+\mbox{\Hypertarget{class_ball_a88546ffd1a37b301a5c7085f3eabe8f0}\label{class_ball_a88546ffd1a37b301a5c7085f3eabe8f0}} 
+\index{Ball@{Ball}!translate@{translate}}
+\index{translate@{translate}!Ball@{Ball}}
+\subsubsection{\texorpdfstring{translate()}{translate()}}
+{\footnotesize\ttfamily virtual void Ball\+::translate (\begin{DoxyParamCaption}\item[{Q\+Vector2D}]{vec }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+translate -\/ Move the ball\textquotesingle{}s position by provided vector 
+
+
+\begin{DoxyParams}{Parameters}
+{\em vec} & -\/ vector \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \mbox{\hyperlink{class_ball_decorator_aae30ba0b71629db797e0ea2639c5e32d}{Ball\+Decorator}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+ball.\+h\end{DoxyCompactItemize}

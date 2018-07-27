@@ -1,0 +1,87 @@
+\hypertarget{class_table}{}\section{Table Class Reference}
+\label{class_table}\index{Table@{Table}}
+
+
+Inherited by \mbox{\hyperlink{class_stage_one_table}{Stage\+One\+Table}}, and \mbox{\hyperlink{class_stage_two_table}{Stage\+Two\+Table}}.
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_table_a7f7c9dbfd3a6ebf5360cfd30e6d9ceb6}\label{class_table_a7f7c9dbfd3a6ebf5360cfd30e6d9ceb6}} 
+{\bfseries Table} (int width, int height, Q\+Color colour, double friction)
+\item 
+virtual void \mbox{\hyperlink{class_table_a827dac18920a95b3e0ef006183514654}{render}} (Q\+Painter \&painter, const Q\+Vector2D \&offset)=0
+\begin{DoxyCompactList}\small\item\em render -\/ draw the table to screen using the specified painter \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_table_a767798fbd671c4c6805091a116439444}\label{class_table_a767798fbd671c4c6805091a116439444}} 
+int {\bfseries get\+Width} () const
+\item 
+\mbox{\Hypertarget{class_table_a3c40550751e65b563b3f1759bd12985c}\label{class_table_a3c40550751e65b563b3f1759bd12985c}} 
+int {\bfseries get\+Height} () const
+\item 
+\mbox{\Hypertarget{class_table_a250960dffeb3fa744bf098a49ef78d8a}\label{class_table_a250960dffeb3fa744bf098a49ef78d8a}} 
+double {\bfseries get\+Friction} () const
+\item 
+\mbox{\Hypertarget{class_table_ab3eb192b2a06e26349d651e4e6de063a}\label{class_table_ab3eb192b2a06e26349d651e4e6de063a}} 
+virtual bool {\bfseries sinks} (\mbox{\hyperlink{class_ball}{Ball}} $\ast$)
+\item 
+virtual \mbox{\hyperlink{class_table}{Table}} $\ast$ \mbox{\hyperlink{class_table_a881295d0bea9823026471422ec203c6e}{copy}} ()=0
+\begin{DoxyCompactList}\small\item\em copy deep copy the table \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_table_a1e99922a6f86bbbe649c4705590b3409}\label{class_table_a1e99922a6f86bbbe649c4705590b3409}} 
+int {\bfseries m\+\_\+width}
+\item 
+\mbox{\Hypertarget{class_table_af1f22da42093769f53dcc3ebe7ea40c0}\label{class_table_af1f22da42093769f53dcc3ebe7ea40c0}} 
+int {\bfseries m\+\_\+height}
+\item 
+\mbox{\Hypertarget{class_table_a9c8db37610dfe62b570c7a386db69939}\label{class_table_a9c8db37610dfe62b570c7a386db69939}} 
+Q\+Brush {\bfseries m\+\_\+brush}
+\item 
+\mbox{\Hypertarget{class_table_aa26465bb9074d6f07dec1a41a06a7d62}\label{class_table_aa26465bb9074d6f07dec1a41a06a7d62}} 
+double {\bfseries m\+\_\+friction}
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_table_a881295d0bea9823026471422ec203c6e}\label{class_table_a881295d0bea9823026471422ec203c6e}} 
+\index{Table@{Table}!copy@{copy}}
+\index{copy@{copy}!Table@{Table}}
+\subsubsection{\texorpdfstring{copy()}{copy()}}
+{\footnotesize\ttfamily virtual \mbox{\hyperlink{class_table}{Table}}$\ast$ Table\+::copy (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+copy deep copy the table 
+
+\begin{DoxyReturn}{Returns}
+new table with different address 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{class_stage_two_table_ab87e388ca2927670b37dffccb91a76b4}{Stage\+Two\+Table}}, and \mbox{\hyperlink{class_stage_one_table_a03bc7541b29521436c618818d8e8b3dc}{Stage\+One\+Table}}.
+
+\mbox{\Hypertarget{class_table_a827dac18920a95b3e0ef006183514654}\label{class_table_a827dac18920a95b3e0ef006183514654}} 
+\index{Table@{Table}!render@{render}}
+\index{render@{render}!Table@{Table}}
+\subsubsection{\texorpdfstring{render()}{render()}}
+{\footnotesize\ttfamily virtual void Table\+::render (\begin{DoxyParamCaption}\item[{Q\+Painter \&}]{painter,  }\item[{const Q\+Vector2D \&}]{offset }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+render -\/ draw the table to screen using the specified painter 
+
+
+\begin{DoxyParams}{Parameters}
+{\em painter} & -\/ painter to use \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{class_stage_two_table_ad19f7aa333b65d84b67ce2e55330a669}{Stage\+Two\+Table}}, and \mbox{\hyperlink{class_stage_one_table_a1f6dac59ce45c370f94fb3710f744ceb}{Stage\+One\+Table}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+table.\+h\end{DoxyCompactItemize}

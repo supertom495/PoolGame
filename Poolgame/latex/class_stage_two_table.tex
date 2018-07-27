@@ -1,0 +1,76 @@
+\hypertarget{class_stage_two_table}{}\section{Stage\+Two\+Table Class Reference}
+\label{class_stage_two_table}\index{Stage\+Two\+Table@{Stage\+Two\+Table}}
+
+
+Inherits \mbox{\hyperlink{class_table}{Table}}.
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_stage_two_table_abfe56f335f3eda0c72ae8477fe65e71f}\label{class_stage_two_table_abfe56f335f3eda0c72ae8477fe65e71f}} 
+{\bfseries Stage\+Two\+Table} (int width, int height, Q\+Color colour, double friction)
+\item 
+void \mbox{\hyperlink{class_stage_two_table_ad19f7aa333b65d84b67ce2e55330a669}{render}} (Q\+Painter \&painter, const Q\+Vector2D \&offset) override
+\begin{DoxyCompactList}\small\item\em render -\/ draw the stageonetable to screen using the specified painter \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_stage_two_table_a3e015671be449da741adaf86e00ec844}\label{class_stage_two_table_a3e015671be449da741adaf86e00ec844}} 
+virtual bool {\bfseries sinks} (\mbox{\hyperlink{class_ball}{Ball}} $\ast$b) override
+\item 
+\mbox{\Hypertarget{class_stage_two_table_a0ee81cb52ee0caba2a68449409a63d10}\label{class_stage_two_table_a0ee81cb52ee0caba2a68449409a63d10}} 
+void {\bfseries set\+Pockets} (std\+::vector$<$ \mbox{\hyperlink{class_pocket}{Pocket}} $\ast$$>$ pockets)
+\item 
+\mbox{\Hypertarget{class_stage_two_table_a13e9626ecbb5f84766efe7342e122873}\label{class_stage_two_table_a13e9626ecbb5f84766efe7342e122873}} 
+void {\bfseries add\+Pocket} (\mbox{\hyperlink{class_pocket}{Pocket}} $\ast$p)
+\item 
+\mbox{\hyperlink{class_table}{Table}} $\ast$ \mbox{\hyperlink{class_stage_two_table_ab87e388ca2927670b37dffccb91a76b4}{copy}} () override
+\begin{DoxyCompactList}\small\item\em copy deep copy the table \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_stage_two_table_aba6026e62b3894b57264b080e6a72b75}\label{class_stage_two_table_aba6026e62b3894b57264b080e6a72b75}} 
+std\+::vector$<$ \mbox{\hyperlink{class_pocket}{Pocket}} $\ast$ $>$ {\bfseries m\+\_\+pockets}
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_stage_two_table_ab87e388ca2927670b37dffccb91a76b4}\label{class_stage_two_table_ab87e388ca2927670b37dffccb91a76b4}} 
+\index{Stage\+Two\+Table@{Stage\+Two\+Table}!copy@{copy}}
+\index{copy@{copy}!Stage\+Two\+Table@{Stage\+Two\+Table}}
+\subsubsection{\texorpdfstring{copy()}{copy()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_table}{Table}} $\ast$ Stage\+Two\+Table\+::copy (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+copy deep copy the table 
+
+\begin{DoxyReturn}{Returns}
+new table with different address 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_table_a881295d0bea9823026471422ec203c6e}{Table}}.
+
+\mbox{\Hypertarget{class_stage_two_table_ad19f7aa333b65d84b67ce2e55330a669}\label{class_stage_two_table_ad19f7aa333b65d84b67ce2e55330a669}} 
+\index{Stage\+Two\+Table@{Stage\+Two\+Table}!render@{render}}
+\index{render@{render}!Stage\+Two\+Table@{Stage\+Two\+Table}}
+\subsubsection{\texorpdfstring{render()}{render()}}
+{\footnotesize\ttfamily void Stage\+Two\+Table\+::render (\begin{DoxyParamCaption}\item[{Q\+Painter \&}]{painter,  }\item[{const Q\+Vector2D \&}]{offset }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+render -\/ draw the stageonetable to screen using the specified painter 
+
+
+\begin{DoxyParams}{Parameters}
+{\em painter} & -\/ painter to use \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_table_a827dac18920a95b3e0ef006183514654}{Table}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+table.\+h\item 
+table.\+cpp\end{DoxyCompactItemize}

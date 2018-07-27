@@ -1,0 +1,112 @@
+\hypertarget{class_composite_ball}{}\section{Composite\+Ball Class Reference}
+\label{class_composite_ball}\index{Composite\+Ball@{Composite\+Ball}}
+
+
+Inherits \mbox{\hyperlink{class_ball}{Ball}}.
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_composite_ball_a7b6224c07ad69240377555508ddc8876}\label{class_composite_ball_a7b6224c07ad69240377555508ddc8876}} 
+{\bfseries Composite\+Ball} (Q\+Color colour, Q\+Vector2D position, Q\+Vector2D velocity, double mass, int radius, double strength)
+\item 
+void \mbox{\hyperlink{class_composite_ball_a2aefe32771e1cde5dc8f51d779c880eb}{render}} (Q\+Painter \&painter, const Q\+Vector2D \&offset) override
+\begin{DoxyCompactList}\small\item\em render -\/ draw the ball to the screen \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_composite_ball_a6c226ee364012b0c3eb3271a01307297}\label{class_composite_ball_a6c226ee364012b0c3eb3271a01307297}} 
+void {\bfseries add\+Child} (\mbox{\hyperlink{class_ball}{Ball}} $\ast$b)
+\item 
+virtual bool \mbox{\hyperlink{class_composite_ball_a0da2c5749caafcef943f14a500a0fc9b}{apply\+Break}} (const Q\+Vector2D \&deltaV, std\+::vector$<$ \mbox{\hyperlink{class_ball}{Ball}} $\ast$$>$ \&parentlist) override
+\begin{DoxyCompactList}\small\item\em apply\+Break -\/ check and resolve breaking balls \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_composite_ball_ab819946774bc42cf5a932ccaecb75e9e}\label{class_composite_ball_ab819946774bc42cf5a932ccaecb75e9e}} 
+void {\bfseries set\+Children} (std\+::vector$<$ \mbox{\hyperlink{class_ball}{Ball}} $\ast$$>$ children)
+\item 
+\mbox{\hyperlink{class_ball}{Ball}} $\ast$ \mbox{\hyperlink{class_composite_ball_ad00585e160c3b030435d567141574fd2}{copy}} () override
+\begin{DoxyCompactList}\small\item\em copy it is a deep copy function \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_composite_ball_a05f96cd1c4321d89763dce5a15b53138}\label{class_composite_ball_a05f96cd1c4321d89763dce5a15b53138}} 
+void {\bfseries recursive\+Render} (Q\+Painter \&painter, const Q\+Vector2D \&offset)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_composite_ball_a2689ad5361a52d586f43dafd8922a422}\label{class_composite_ball_a2689ad5361a52d586f43dafd8922a422}} 
+std\+::vector$<$ \mbox{\hyperlink{class_ball}{Ball}} $\ast$ $>$ {\bfseries m\+\_\+children}
+\item 
+\mbox{\Hypertarget{class_composite_ball_a751e10b0f9278bcf48720ac6af9bdd20}\label{class_composite_ball_a751e10b0f9278bcf48720ac6af9bdd20}} 
+bool {\bfseries m\+\_\+render\+Children} = true
+\item 
+\mbox{\Hypertarget{class_composite_ball_a78051a7a01a600b88ed22e7d725640db}\label{class_composite_ball_a78051a7a01a600b88ed22e7d725640db}} 
+double {\bfseries m\+\_\+strength} = std\+::numeric\+\_\+limits$<$double$>$\+::max()
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_composite_ball_a0da2c5749caafcef943f14a500a0fc9b}\label{class_composite_ball_a0da2c5749caafcef943f14a500a0fc9b}} 
+\index{Composite\+Ball@{Composite\+Ball}!apply\+Break@{apply\+Break}}
+\index{apply\+Break@{apply\+Break}!Composite\+Ball@{Composite\+Ball}}
+\subsubsection{\texorpdfstring{apply\+Break()}{applyBreak()}}
+{\footnotesize\ttfamily bool Composite\+Ball\+::apply\+Break (\begin{DoxyParamCaption}\item[{const Q\+Vector2D \&}]{deltaV,  }\item[{std\+::vector$<$ \mbox{\hyperlink{class_ball}{Ball}} $\ast$$>$ \&}]{parentlist }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+apply\+Break -\/ check and resolve breaking balls 
+
+
+\begin{DoxyParams}{Parameters}
+{\em deltaV} & -\/ the change in velocity \\
+\hline
+{\em parentlist} & -\/ the list of balls that we\textquotesingle{}ll need to add to if we break anything \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+whether the ball broke or not 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{class_ball}{Ball}}.
+
+\mbox{\Hypertarget{class_composite_ball_ad00585e160c3b030435d567141574fd2}\label{class_composite_ball_ad00585e160c3b030435d567141574fd2}} 
+\index{Composite\+Ball@{Composite\+Ball}!copy@{copy}}
+\index{copy@{copy}!Composite\+Ball@{Composite\+Ball}}
+\subsubsection{\texorpdfstring{copy()}{copy()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_ball}{Ball}} $\ast$ Composite\+Ball\+::copy (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+copy it is a deep copy function 
+
+\begin{DoxyReturn}{Returns}
+A new ball with different address 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_ball_ae6c0731fabb7a45ba36df62a1975661a}{Ball}}.
+
+\mbox{\Hypertarget{class_composite_ball_a2aefe32771e1cde5dc8f51d779c880eb}\label{class_composite_ball_a2aefe32771e1cde5dc8f51d779c880eb}} 
+\index{Composite\+Ball@{Composite\+Ball}!render@{render}}
+\index{render@{render}!Composite\+Ball@{Composite\+Ball}}
+\subsubsection{\texorpdfstring{render()}{render()}}
+{\footnotesize\ttfamily void Composite\+Ball\+::render (\begin{DoxyParamCaption}\item[{Q\+Painter \&}]{painter,  }\item[{const Q\+Vector2D \&}]{offset }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+render -\/ draw the ball to the screen 
+
+
+\begin{DoxyParams}{Parameters}
+{\em painter} & -\/ Q\+Painter that is owned by the dialog \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_ball_a307773aaa59aee90cef8767b0c22deca}{Ball}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+ball.\+h\item 
+ball.\+cpp\end{DoxyCompactItemize}

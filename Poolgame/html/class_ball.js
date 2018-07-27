@@ -1,0 +1,25 @@
+var class_ball =
+[
+    [ "~Ball", "class_ball.html#a78aa1f06b39fc9f81df82bef399c475c", null ],
+    [ "Ball", "class_ball.html#a81d492bd26dc3b4583da0b709375bbac", null ],
+    [ "Ball", "class_ball.html#a86a144d3dad6c953e422e32435923bbb", null ],
+    [ "applyBreak", "class_ball.html#a9df4c9fc8620d003cf9717d84e64d5ee", null ],
+    [ "changeColor", "class_ball.html#ac68ba5765f29f3322c2f2de3fc61e5ae", null ],
+    [ "changeRadius", "class_ball.html#a8e53255b6e2867060205bc037fcd6744", null ],
+    [ "changeVelocity", "class_ball.html#add51f90f60cb862daa8f3f7aa743f933", null ],
+    [ "copy", "class_ball.html#ae6c0731fabb7a45ba36df62a1975661a", null ],
+    [ "getMass", "class_ball.html#a4b8e6ae922e7c1bfe6ab4568a591580e", null ],
+    [ "getPosition", "class_ball.html#a8861d6e0221d1b4d8468458fc2ec9b3c", null ],
+    [ "getRadius", "class_ball.html#a311b644cb28ee7c864806312ff52a594", null ],
+    [ "getVelocity", "class_ball.html#a016798bb733965c67e70b8abfc661e5b", null ],
+    [ "multiplyVelocity", "class_ball.html#aacc57301046fab52930f7615073136e0", null ],
+    [ "render", "class_ball.html#a307773aaa59aee90cef8767b0c22deca", null ],
+    [ "setPosition", "class_ball.html#af656c9b3f7eb0f966f71eb100323559f", null ],
+    [ "setVelocity", "class_ball.html#a2067db4efee62b1ff618b782fc93818c", null ],
+    [ "translate", "class_ball.html#a88546ffd1a37b301a5c7085f3eabe8f0", null ],
+    [ "m_brush", "class_ball.html#a8eeb4e79fca6415f0bacb80457f4487c", null ],
+    [ "m_mass", "class_ball.html#ac1cab784df7b44bc48d236657c28a199", null ],
+    [ "m_pos", "class_ball.html#a50924825251df59b5715b123ac5f6395", null ],
+    [ "m_radius", "class_ball.html#a5121dd03edea304520c4e9f286be67c0", null ],
+    [ "m_velocity", "class_ball.html#a7c207fe7385c8d519ac85e8e6c9ceae5", null ]
+];

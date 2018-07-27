@@ -1,0 +1,80 @@
+\hypertarget{class_ball_sparkle_decorator}{}\section{Ball\+Sparkle\+Decorator Class Reference}
+\label{class_ball_sparkle_decorator}\index{Ball\+Sparkle\+Decorator@{Ball\+Sparkle\+Decorator}}
+
+
+Inherits \mbox{\hyperlink{class_ball_decorator}{Ball\+Decorator}}.
+
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_ball_sparkle_decorator_1_1_sparkle}{Sparkle}}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_ball_sparkle_decorator_aebdaa2c5204a050a297c9255d885d0c3}\label{class_ball_sparkle_decorator_aebdaa2c5204a050a297c9255d885d0c3}} 
+{\bfseries Ball\+Sparkle\+Decorator} (\mbox{\hyperlink{class_ball}{Ball}} $\ast$b)
+\item 
+void \mbox{\hyperlink{class_ball_sparkle_decorator_ad3ee562f1cc9dfa5835bca2fab3d30a7}{render}} (Q\+Painter \&painter, const Q\+Vector2D \&offset) override
+\begin{DoxyCompactList}\small\item\em render -\/ draw the underlying ball and also the sparkles \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_ball}{Ball}} $\ast$ \mbox{\hyperlink{class_ball_sparkle_decorator_a1fd1b10d028cc51c958eb5c9a7cf732c}{copy}} () override
+\begin{DoxyCompactList}\small\item\em copy it is a deep copy function \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_ball_sparkle_decorator_a225c9a37159214fbb658148713227fcf}\label{class_ball_sparkle_decorator_a225c9a37159214fbb658148713227fcf}} 
+std\+::vector$<$ \mbox{\hyperlink{struct_ball_sparkle_decorator_1_1_sparkle}{Sparkle}} $>$ {\bfseries m\+\_\+sparkle\+Positions}
+\end{DoxyCompactItemize}
+\subsection*{Static Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_ball_sparkle_decorator_ad4e98ec20a12be0c8b0481879d4c2d17}\label{class_ball_sparkle_decorator_ad4e98ec20a12be0c8b0481879d4c2d17}} 
+static constexpr double {\bfseries fade\+Rate} = 0.\+01
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_ball_sparkle_decorator_a1fd1b10d028cc51c958eb5c9a7cf732c}\label{class_ball_sparkle_decorator_a1fd1b10d028cc51c958eb5c9a7cf732c}} 
+\index{Ball\+Sparkle\+Decorator@{Ball\+Sparkle\+Decorator}!copy@{copy}}
+\index{copy@{copy}!Ball\+Sparkle\+Decorator@{Ball\+Sparkle\+Decorator}}
+\subsubsection{\texorpdfstring{copy()}{copy()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_ball}{Ball}} $\ast$ Ball\+Sparkle\+Decorator\+::copy (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+copy it is a deep copy function 
+
+\begin{DoxyReturn}{Returns}
+A new ball with different address 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_ball_ae6c0731fabb7a45ba36df62a1975661a}{Ball}}.
+
+\mbox{\Hypertarget{class_ball_sparkle_decorator_ad3ee562f1cc9dfa5835bca2fab3d30a7}\label{class_ball_sparkle_decorator_ad3ee562f1cc9dfa5835bca2fab3d30a7}} 
+\index{Ball\+Sparkle\+Decorator@{Ball\+Sparkle\+Decorator}!render@{render}}
+\index{render@{render}!Ball\+Sparkle\+Decorator@{Ball\+Sparkle\+Decorator}}
+\subsubsection{\texorpdfstring{render()}{render()}}
+{\footnotesize\ttfamily void Ball\+Sparkle\+Decorator\+::render (\begin{DoxyParamCaption}\item[{Q\+Painter \&}]{painter,  }\item[{const Q\+Vector2D \&}]{offset }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+render -\/ draw the underlying ball and also the sparkles 
+
+
+\begin{DoxyParams}{Parameters}
+{\em painter} & -\/ the brush to use to draw \\
+\hline
+{\em offset} & -\/ the offset that this ball is from the origin \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{class_ball_decorator_af8205f8033b2490ecd3365c24ff5cdeb}{Ball\+Decorator}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+balldecorator.\+h\item 
+balldecorator.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,7 @@
+var searchData=
+[
+  ['makeball',['makeBall',['../class_abstract_stage_factory.html#a23367d64366e679aaff865620f5ce1ab',1,'AbstractStageFactory::makeBall()'],['../class_stage_one_factory.html#a8a89031bc805b70d93e942275777394d',1,'StageOneFactory::makeBall()'],['../class_stage_two_factory.html#aa12e02122eea28b08b3e148521bc2055',1,'StageTwoFactory::makeBall()']]],
+  ['makepocket',['makePocket',['../class_abstract_stage_factory.html#a6ce57859e00b135049e3b995b7dfc94d',1,'AbstractStageFactory::makePocket()'],['../class_stage_one_factory.html#ab9d7b7d74b61a2fd6c96562a67dc2fe8',1,'StageOneFactory::makePocket()'],['../class_stage_two_factory.html#a6b66c413691103cf5df2840bcdb683ef',1,'StageTwoFactory::makePocket()']]],
+  ['maketable',['makeTable',['../class_abstract_stage_factory.html#a539c855ce9a09e08b7fcb3ffa7f0d3fd',1,'AbstractStageFactory::makeTable()'],['../class_stage_one_factory.html#a31e02c98e5c428f0e1ac0a36e641310d',1,'StageOneFactory::makeTable()'],['../class_stage_two_factory.html#aa532818e02bed0ea1f5c79a1a1487e71',1,'StageTwoFactory::makeTable()']]],
+  ['multiplyvelocity',['multiplyVelocity',['../class_ball.html#aacc57301046fab52930f7615073136e0',1,'Ball::multiplyVelocity()'],['../class_ball_decorator.html#ad1a9139a5c41d17d0eebf007afb984e7',1,'BallDecorator::multiplyVelocity()'],['../class_ball_smash_decorator.html#a017998926f2b3ebdfcf49e074ea86aae',1,'BallSmashDecorator::multiplyVelocity()']]]
+];

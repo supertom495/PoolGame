@@ -1,0 +1,62 @@
+\hypertarget{class_stage_one_ball}{}\section{Stage\+One\+Ball Class Reference}
+\label{class_stage_one_ball}\index{Stage\+One\+Ball@{Stage\+One\+Ball}}
+
+
+Inherits \mbox{\hyperlink{class_ball}{Ball}}.
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_stage_one_ball_a70fd661f3b92f3e4745d4963b9b3ec80}\label{class_stage_one_ball_a70fd661f3b92f3e4745d4963b9b3ec80}} 
+{\bfseries Stage\+One\+Ball} (Q\+Color colour, Q\+Vector2D position, Q\+Vector2D velocity, double mass, int radius)
+\item 
+void \mbox{\hyperlink{class_stage_one_ball_aa4f7f52cb8946b59c201d724dc0dc5bd}{render}} (Q\+Painter \&painter, const Q\+Vector2D \&offset) override
+\begin{DoxyCompactList}\small\item\em render -\/ draw the ball to the screen \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_ball}{Ball}} $\ast$ \mbox{\hyperlink{class_stage_one_ball_a8c75b7d3f7e84bc95cbdce60f030787e}{copy}} () override
+\begin{DoxyCompactList}\small\item\em copy it is a deep copy function \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_stage_one_ball_a8c75b7d3f7e84bc95cbdce60f030787e}\label{class_stage_one_ball_a8c75b7d3f7e84bc95cbdce60f030787e}} 
+\index{Stage\+One\+Ball@{Stage\+One\+Ball}!copy@{copy}}
+\index{copy@{copy}!Stage\+One\+Ball@{Stage\+One\+Ball}}
+\subsubsection{\texorpdfstring{copy()}{copy()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_ball}{Ball}} $\ast$ Stage\+One\+Ball\+::copy (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+copy it is a deep copy function 
+
+\begin{DoxyReturn}{Returns}
+A new ball with different address 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_ball_ae6c0731fabb7a45ba36df62a1975661a}{Ball}}.
+
+\mbox{\Hypertarget{class_stage_one_ball_aa4f7f52cb8946b59c201d724dc0dc5bd}\label{class_stage_one_ball_aa4f7f52cb8946b59c201d724dc0dc5bd}} 
+\index{Stage\+One\+Ball@{Stage\+One\+Ball}!render@{render}}
+\index{render@{render}!Stage\+One\+Ball@{Stage\+One\+Ball}}
+\subsubsection{\texorpdfstring{render()}{render()}}
+{\footnotesize\ttfamily void Stage\+One\+Ball\+::render (\begin{DoxyParamCaption}\item[{Q\+Painter \&}]{painter,  }\item[{const Q\+Vector2D \&}]{offset }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+render -\/ draw the ball to the screen 
+
+
+\begin{DoxyParams}{Parameters}
+{\em painter} & -\/ Q\+Painter that is owned by the dialog \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_ball_a307773aaa59aee90cef8767b0c22deca}{Ball}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+ball.\+h\item 
+ball.\+cpp\end{DoxyCompactItemize}

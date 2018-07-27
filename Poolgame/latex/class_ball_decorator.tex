@@ -1,0 +1,160 @@
+\hypertarget{class_ball_decorator}{}\section{Ball\+Decorator Class Reference}
+\label{class_ball_decorator}\index{Ball\+Decorator@{Ball\+Decorator}}
+
+
+The \mbox{\hyperlink{class_ball_decorator}{Ball\+Decorator}} class This acts as a Decorator. Any methods not overriden can simply forward the requests onto the Class this is decorated.  
+
+
+
+
+{\ttfamily \#include $<$balldecorator.\+h$>$}
+
+
+
+Inherits \mbox{\hyperlink{class_ball}{Ball}}.
+
+
+
+Inherited by \mbox{\hyperlink{class_ball_smash_decorator}{Ball\+Smash\+Decorator}}, \mbox{\hyperlink{class_ball_sparkle_decorator}{Ball\+Sparkle\+Decorator}}, and \mbox{\hyperlink{class_cue_ball}{Cue\+Ball}}.
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_ball_decorator_a8ba466927a1d9eb97ee0094a11b5596c}\label{class_ball_decorator_a8ba466927a1d9eb97ee0094a11b5596c}} 
+{\bfseries Ball\+Decorator} (\mbox{\hyperlink{class_ball}{Ball}} $\ast$b)
+\item 
+virtual void \mbox{\hyperlink{class_ball_decorator_af8205f8033b2490ecd3365c24ff5cdeb}{render}} (Q\+Painter \&painter, const Q\+Vector2D \&offset) override
+\begin{DoxyCompactList}\small\item\em render -\/ draw the ball to the screen \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_ball_decorator_aae30ba0b71629db797e0ea2639c5e32d}{translate}} (Q\+Vector2D vec) override
+\begin{DoxyCompactList}\small\item\em translate -\/ Move the ball\textquotesingle{}s position by provided vector \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_ball_decorator_aa2123d7419801968b7fce98e546397b7}\label{class_ball_decorator_aa2123d7419801968b7fce98e546397b7}} 
+virtual Q\+Vector2D {\bfseries get\+Velocity} () const override
+\item 
+\mbox{\Hypertarget{class_ball_decorator_aae01d9541d78d1a679ace63127aacd69}\label{class_ball_decorator_aae01d9541d78d1a679ace63127aacd69}} 
+virtual void {\bfseries set\+Velocity} (Q\+Vector2D v) override
+\item 
+virtual void \mbox{\hyperlink{class_ball_decorator_a3e4f4d31f6409f018b8b337bcf2bd284}{change\+Velocity}} (const Q\+Vector2D \&delta) override
+\begin{DoxyCompactList}\small\item\em change\+Velocity -\/ modify speed by a constant amount \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_ball_decorator_ad1a9139a5c41d17d0eebf007afb984e7}{multiply\+Velocity}} (const Q\+Vector2D \&vel) override
+\begin{DoxyCompactList}\small\item\em multiply\+Velocity -\/ apply vector multiplicatively \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_ball_decorator_acf6892e513f9dc01bb6f87028e8ca9d5}\label{class_ball_decorator_acf6892e513f9dc01bb6f87028e8ca9d5}} 
+virtual double {\bfseries get\+Mass} () const override
+\item 
+\mbox{\Hypertarget{class_ball_decorator_af842f5b568d3baa21fd68bb4ede7068a}\label{class_ball_decorator_af842f5b568d3baa21fd68bb4ede7068a}} 
+virtual double {\bfseries get\+Radius} () const override
+\item 
+\mbox{\Hypertarget{class_ball_decorator_a40b5df839e4f1aaec4ee792749757848}\label{class_ball_decorator_a40b5df839e4f1aaec4ee792749757848}} 
+virtual Q\+Vector2D {\bfseries get\+Position} () const override
+\item 
+\mbox{\Hypertarget{class_ball_decorator_aad7c3ecc4449881048f8610ecc73ec31}\label{class_ball_decorator_aad7c3ecc4449881048f8610ecc73ec31}} 
+virtual void {\bfseries set\+Position} (Q\+Vector2D p) override
+\item 
+\mbox{\Hypertarget{class_ball_decorator_a6c11bb4c2a4accb0167a71c8a5cc5ea7}\label{class_ball_decorator_a6c11bb4c2a4accb0167a71c8a5cc5ea7}} 
+virtual bool {\bfseries apply\+Break} (const Q\+Vector2D \&q, std\+::vector$<$ \mbox{\hyperlink{class_ball}{Ball}} $\ast$$>$ \&b) override
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_ball_decorator_ab002bec02e2638a0c600c467f51e27f3}\label{class_ball_decorator_ab002bec02e2638a0c600c467f51e27f3}} 
+\mbox{\hyperlink{class_ball}{Ball}} $\ast$ {\bfseries m\+\_\+sub\+Ball}
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+The \mbox{\hyperlink{class_ball_decorator}{Ball\+Decorator}} class This acts as a Decorator. Any methods not overriden can simply forward the requests onto the Class this is decorated. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_ball_decorator_a3e4f4d31f6409f018b8b337bcf2bd284}\label{class_ball_decorator_a3e4f4d31f6409f018b8b337bcf2bd284}} 
+\index{Ball\+Decorator@{Ball\+Decorator}!change\+Velocity@{change\+Velocity}}
+\index{change\+Velocity@{change\+Velocity}!Ball\+Decorator@{Ball\+Decorator}}
+\subsubsection{\texorpdfstring{change\+Velocity()}{changeVelocity()}}
+{\footnotesize\ttfamily virtual void Ball\+Decorator\+::change\+Velocity (\begin{DoxyParamCaption}\item[{const Q\+Vector2D \&}]{delta }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+change\+Velocity -\/ modify speed by a constant amount 
+
+
+\begin{DoxyParams}{Parameters}
+{\em delta} & -\/ change in velocity (x,y) \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{class_ball_add51f90f60cb862daa8f3f7aa743f933}{Ball}}.
+
+
+
+Reimplemented in \mbox{\hyperlink{class_ball_smash_decorator_ad59848156e8eabad3e561a1d113f7029}{Ball\+Smash\+Decorator}}.
+
+\mbox{\Hypertarget{class_ball_decorator_ad1a9139a5c41d17d0eebf007afb984e7}\label{class_ball_decorator_ad1a9139a5c41d17d0eebf007afb984e7}} 
+\index{Ball\+Decorator@{Ball\+Decorator}!multiply\+Velocity@{multiply\+Velocity}}
+\index{multiply\+Velocity@{multiply\+Velocity}!Ball\+Decorator@{Ball\+Decorator}}
+\subsubsection{\texorpdfstring{multiply\+Velocity()}{multiplyVelocity()}}
+{\footnotesize\ttfamily virtual void Ball\+Decorator\+::multiply\+Velocity (\begin{DoxyParamCaption}\item[{const Q\+Vector2D \&}]{vel }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+multiply\+Velocity -\/ apply vector multiplicatively 
+
+
+\begin{DoxyParams}{Parameters}
+{\em vel} & -\/ vector \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{class_ball_aacc57301046fab52930f7615073136e0}{Ball}}.
+
+
+
+Reimplemented in \mbox{\hyperlink{class_ball_smash_decorator_a017998926f2b3ebdfcf49e074ea86aae}{Ball\+Smash\+Decorator}}.
+
+\mbox{\Hypertarget{class_ball_decorator_af8205f8033b2490ecd3365c24ff5cdeb}\label{class_ball_decorator_af8205f8033b2490ecd3365c24ff5cdeb}} 
+\index{Ball\+Decorator@{Ball\+Decorator}!render@{render}}
+\index{render@{render}!Ball\+Decorator@{Ball\+Decorator}}
+\subsubsection{\texorpdfstring{render()}{render()}}
+{\footnotesize\ttfamily virtual void Ball\+Decorator\+::render (\begin{DoxyParamCaption}\item[{Q\+Painter \&}]{painter,  }\item[{const Q\+Vector2D \&}]{offset }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+render -\/ draw the ball to the screen 
+
+
+\begin{DoxyParams}{Parameters}
+{\em painter} & -\/ Q\+Painter that is owned by the dialog \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_ball_a307773aaa59aee90cef8767b0c22deca}{Ball}}.
+
+
+
+Reimplemented in \mbox{\hyperlink{class_ball_smash_decorator_a8cbf47d481100f16f2376670fee9fdcc}{Ball\+Smash\+Decorator}}, \mbox{\hyperlink{class_ball_sparkle_decorator_ad3ee562f1cc9dfa5835bca2fab3d30a7}{Ball\+Sparkle\+Decorator}}, and \mbox{\hyperlink{class_cue_ball_a915a83205e4cfc720fbd884b045e2f81}{Cue\+Ball}}.
+
+\mbox{\Hypertarget{class_ball_decorator_aae30ba0b71629db797e0ea2639c5e32d}\label{class_ball_decorator_aae30ba0b71629db797e0ea2639c5e32d}} 
+\index{Ball\+Decorator@{Ball\+Decorator}!translate@{translate}}
+\index{translate@{translate}!Ball\+Decorator@{Ball\+Decorator}}
+\subsubsection{\texorpdfstring{translate()}{translate()}}
+{\footnotesize\ttfamily virtual void Ball\+Decorator\+::translate (\begin{DoxyParamCaption}\item[{Q\+Vector2D}]{vec }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+translate -\/ Move the ball\textquotesingle{}s position by provided vector 
+
+
+\begin{DoxyParams}{Parameters}
+{\em vec} & -\/ vector \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{class_ball_a88546ffd1a37b301a5c7085f3eabe8f0}{Ball}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+balldecorator.\+h\end{DoxyCompactItemize}
