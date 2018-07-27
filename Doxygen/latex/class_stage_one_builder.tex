@@ -1,0 +1,109 @@
+\hypertarget{class_stage_one_builder}{}\section{Stage\+One\+Builder Class Reference}
+\label{class_stage_one_builder}\index{Stage\+One\+Builder@{Stage\+One\+Builder}}
+
+
+{\ttfamily \#include $<$gamebuilder.\+h$>$}
+
+Inheritance diagram for Stage\+One\+Builder\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_stage_one_builder}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_stage_one_builder_a1008b1e1d473b4c3e3db2fca1122d4b0}{$\sim$\+Stage\+One\+Builder}} ()
+\item 
+\mbox{\hyperlink{class_stage_one_builder_aaeaf7f5af709b6530e95db25bab3af13}{Stage\+One\+Builder}} ()
+\item 
+void \mbox{\hyperlink{class_stage_one_builder_a9d7931aab89afcfa0b2c23da6fb10bfb}{add\+Ball}} (Q\+Json\+Object \&ball\+Data) override
+\begin{DoxyCompactList}\small\item\em add\+Ball creates a ball to the current game being built \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_stage_one_builder_ac8f35ec11ebe31010410bc50b0149ce9}{add\+Table}} (Q\+Json\+Object \&table\+Data) override
+\begin{DoxyCompactList}\small\item\em add\+Table creates a table to the current game being built \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 33 of file gamebuilder.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_stage_one_builder_a1008b1e1d473b4c3e3db2fca1122d4b0}\label{class_stage_one_builder_a1008b1e1d473b4c3e3db2fca1122d4b0}} 
+\index{Stage\+One\+Builder@{Stage\+One\+Builder}!````~Stage\+One\+Builder@{$\sim$\+Stage\+One\+Builder}}
+\index{````~Stage\+One\+Builder@{$\sim$\+Stage\+One\+Builder}!Stage\+One\+Builder@{Stage\+One\+Builder}}
+\subsubsection{\texorpdfstring{$\sim$\+Stage\+One\+Builder()}{~StageOneBuilder()}}
+{\footnotesize\ttfamily Stage\+One\+Builder\+::$\sim$\+Stage\+One\+Builder (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 35 of file gamebuilder.\+h.
+
+\mbox{\Hypertarget{class_stage_one_builder_aaeaf7f5af709b6530e95db25bab3af13}\label{class_stage_one_builder_aaeaf7f5af709b6530e95db25bab3af13}} 
+\index{Stage\+One\+Builder@{Stage\+One\+Builder}!Stage\+One\+Builder@{Stage\+One\+Builder}}
+\index{Stage\+One\+Builder@{Stage\+One\+Builder}!Stage\+One\+Builder@{Stage\+One\+Builder}}
+\subsubsection{\texorpdfstring{Stage\+One\+Builder()}{StageOneBuilder()}}
+{\footnotesize\ttfamily Stage\+One\+Builder\+::\+Stage\+One\+Builder (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 36 of file gamebuilder.\+h.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_stage_one_builder_a9d7931aab89afcfa0b2c23da6fb10bfb}\label{class_stage_one_builder_a9d7931aab89afcfa0b2c23da6fb10bfb}} 
+\index{Stage\+One\+Builder@{Stage\+One\+Builder}!add\+Ball@{add\+Ball}}
+\index{add\+Ball@{add\+Ball}!Stage\+One\+Builder@{Stage\+One\+Builder}}
+\subsubsection{\texorpdfstring{add\+Ball()}{addBall()}}
+{\footnotesize\ttfamily void Stage\+One\+Builder\+::add\+Ball (\begin{DoxyParamCaption}\item[{Q\+Json\+Object \&}]{ball\+Data }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+add\+Ball creates a ball to the current game being built 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ball\+Data} & -\/ json object that is simply an element of the array of balls provided in the config \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_game_builder_a836186637bd2f7844f7dfac0135d833b}{Game\+Builder}}.
+
+
+
+Definition at line 39 of file gamebuilder.\+cpp.
+
+\mbox{\Hypertarget{class_stage_one_builder_ac8f35ec11ebe31010410bc50b0149ce9}\label{class_stage_one_builder_ac8f35ec11ebe31010410bc50b0149ce9}} 
+\index{Stage\+One\+Builder@{Stage\+One\+Builder}!add\+Table@{add\+Table}}
+\index{add\+Table@{add\+Table}!Stage\+One\+Builder@{Stage\+One\+Builder}}
+\subsubsection{\texorpdfstring{add\+Table()}{addTable()}}
+{\footnotesize\ttfamily void Stage\+One\+Builder\+::add\+Table (\begin{DoxyParamCaption}\item[{Q\+Json\+Object \&}]{table\+Data }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+add\+Table creates a table to the current game being built 
+
+
+\begin{DoxyParams}{Parameters}
+{\em table\+Data} & -\/ json object that contains all properties of the table \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_game_builder_a65fb629009c18956a8d592352eda1eb5}{Game\+Builder}}.
+
+
+
+Definition at line 47 of file gamebuilder.\+cpp.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{gamebuilder_8h}{gamebuilder.\+h}}\item 
+\mbox{\hyperlink{gamebuilder_8cpp}{gamebuilder.\+cpp}}\end{DoxyCompactItemize}

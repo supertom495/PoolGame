@@ -1,0 +1,92 @@
+\hypertarget{class_game_director}{}\section{Game\+Director Class Reference}
+\label{class_game_director}\index{Game\+Director@{Game\+Director}}
+
+
+{\ttfamily \#include $<$gamebuilder.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_game_director_a33c93c8581be00967a3d6cf4ce5bc9aa}{$\sim$\+Game\+Director}} ()
+\item 
+\mbox{\hyperlink{class_game_director_a3ac974d917a3cff7a7873bcf9bbfc2ce}{Game\+Director}} (Q\+Json\+Object $\ast$conf)
+\item 
+void \mbox{\hyperlink{class_game_director_af849b0b8309680e7eb53cc1803895aab}{set\+Builder}} (\mbox{\hyperlink{class_game_builder}{Game\+Builder}} $\ast$new\+Builder)
+\begin{DoxyCompactList}\small\item\em set\+Builder -\/ change which builder should be used for construction \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_game}{Game}} $\ast$ \mbox{\hyperlink{class_game_director_a39ad3747cf1b3bf8a6e335167f73d04b}{create\+Game}} ()
+\begin{DoxyCompactList}\small\item\em create\+Game -\/ retrieve the building that our owned builder created \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 51 of file gamebuilder.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_game_director_a33c93c8581be00967a3d6cf4ce5bc9aa}\label{class_game_director_a33c93c8581be00967a3d6cf4ce5bc9aa}} 
+\index{Game\+Director@{Game\+Director}!````~Game\+Director@{$\sim$\+Game\+Director}}
+\index{````~Game\+Director@{$\sim$\+Game\+Director}!Game\+Director@{Game\+Director}}
+\subsubsection{\texorpdfstring{$\sim$\+Game\+Director()}{~GameDirector()}}
+{\footnotesize\ttfamily Game\+Director\+::$\sim$\+Game\+Director (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 55 of file gamebuilder.\+h.
+
+\mbox{\Hypertarget{class_game_director_a3ac974d917a3cff7a7873bcf9bbfc2ce}\label{class_game_director_a3ac974d917a3cff7a7873bcf9bbfc2ce}} 
+\index{Game\+Director@{Game\+Director}!Game\+Director@{Game\+Director}}
+\index{Game\+Director@{Game\+Director}!Game\+Director@{Game\+Director}}
+\subsubsection{\texorpdfstring{Game\+Director()}{GameDirector()}}
+{\footnotesize\ttfamily Game\+Director\+::\+Game\+Director (\begin{DoxyParamCaption}\item[{Q\+Json\+Object $\ast$}]{conf }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 56 of file gamebuilder.\+h.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_game_director_a39ad3747cf1b3bf8a6e335167f73d04b}\label{class_game_director_a39ad3747cf1b3bf8a6e335167f73d04b}} 
+\index{Game\+Director@{Game\+Director}!create\+Game@{create\+Game}}
+\index{create\+Game@{create\+Game}!Game\+Director@{Game\+Director}}
+\subsubsection{\texorpdfstring{create\+Game()}{createGame()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_game}{Game}} $\ast$ Game\+Director\+::create\+Game (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+create\+Game -\/ retrieve the building that our owned builder created 
+
+\begin{DoxyReturn}{Returns}
+-\/ the newly created game 
+\end{DoxyReturn}
+
+
+Definition at line 53 of file gamebuilder.\+cpp.
+
+\mbox{\Hypertarget{class_game_director_af849b0b8309680e7eb53cc1803895aab}\label{class_game_director_af849b0b8309680e7eb53cc1803895aab}} 
+\index{Game\+Director@{Game\+Director}!set\+Builder@{set\+Builder}}
+\index{set\+Builder@{set\+Builder}!Game\+Director@{Game\+Director}}
+\subsubsection{\texorpdfstring{set\+Builder()}{setBuilder()}}
+{\footnotesize\ttfamily void Game\+Director\+::set\+Builder (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_game_builder}{Game\+Builder}} $\ast$}]{new\+Builder }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+set\+Builder -\/ change which builder should be used for construction 
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\+Builder} & -\/ the new builder \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 61 of file gamebuilder.\+h.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{gamebuilder_8h}{gamebuilder.\+h}}\item 
+\mbox{\hyperlink{gamebuilder_8cpp}{gamebuilder.\+cpp}}\end{DoxyCompactItemize}

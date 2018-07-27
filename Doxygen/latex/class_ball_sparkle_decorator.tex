@@ -1,0 +1,111 @@
+\hypertarget{class_ball_sparkle_decorator}{}\section{Ball\+Sparkle\+Decorator Class Reference}
+\label{class_ball_sparkle_decorator}\index{Ball\+Sparkle\+Decorator@{Ball\+Sparkle\+Decorator}}
+
+
+{\ttfamily \#include $<$balldecorator.\+h$>$}
+
+Inheritance diagram for Ball\+Sparkle\+Decorator\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_ball_sparkle_decorator}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_ball_sparkle_decorator_1_1_sparkle}{Sparkle}}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_ball_sparkle_decorator_aebdaa2c5204a050a297c9255d885d0c3}{Ball\+Sparkle\+Decorator}} (\mbox{\hyperlink{class_ball}{Ball}} $\ast$b)
+\item 
+void \mbox{\hyperlink{class_ball_sparkle_decorator_a3f292b99228264bee08c672184ab6ad5}{render}} (Q\+Painter \&painter, const Q\+Vector2D \&offset)
+\begin{DoxyCompactList}\small\item\em render -\/ draw the underlying ball and also the sparkles \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::vector$<$ \mbox{\hyperlink{struct_ball_sparkle_decorator_1_1_sparkle}{Sparkle}} $>$ \mbox{\hyperlink{class_ball_sparkle_decorator_a225c9a37159214fbb658148713227fcf}{m\+\_\+sparkle\+Positions}}
+\end{DoxyCompactItemize}
+\subsection*{Static Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static constexpr double \mbox{\hyperlink{class_ball_sparkle_decorator_ad4e98ec20a12be0c8b0481879d4c2d17}{fade\+Rate}} = 0.\+01
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 82 of file balldecorator.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_ball_sparkle_decorator_aebdaa2c5204a050a297c9255d885d0c3}\label{class_ball_sparkle_decorator_aebdaa2c5204a050a297c9255d885d0c3}} 
+\index{Ball\+Sparkle\+Decorator@{Ball\+Sparkle\+Decorator}!Ball\+Sparkle\+Decorator@{Ball\+Sparkle\+Decorator}}
+\index{Ball\+Sparkle\+Decorator@{Ball\+Sparkle\+Decorator}!Ball\+Sparkle\+Decorator@{Ball\+Sparkle\+Decorator}}
+\subsubsection{\texorpdfstring{Ball\+Sparkle\+Decorator()}{BallSparkleDecorator()}}
+{\footnotesize\ttfamily Ball\+Sparkle\+Decorator\+::\+Ball\+Sparkle\+Decorator (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_ball}{Ball}} $\ast$}]{b }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 101 of file balldecorator.\+h.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_ball_sparkle_decorator_a3f292b99228264bee08c672184ab6ad5}\label{class_ball_sparkle_decorator_a3f292b99228264bee08c672184ab6ad5}} 
+\index{Ball\+Sparkle\+Decorator@{Ball\+Sparkle\+Decorator}!render@{render}}
+\index{render@{render}!Ball\+Sparkle\+Decorator@{Ball\+Sparkle\+Decorator}}
+\subsubsection{\texorpdfstring{render()}{render()}}
+{\footnotesize\ttfamily void Ball\+Sparkle\+Decorator\+::render (\begin{DoxyParamCaption}\item[{Q\+Painter \&}]{painter,  }\item[{const Q\+Vector2D \&}]{offset }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+render -\/ draw the underlying ball and also the sparkles 
+
+
+\begin{DoxyParams}{Parameters}
+{\em painter} & -\/ the brush to use to draw \\
+\hline
+{\em offset} & -\/ the offset that this ball is from the origin \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{class_ball_decorator_af8205f8033b2490ecd3365c24ff5cdeb}{Ball\+Decorator}}.
+
+
+
+Definition at line 50 of file balldecorator.\+cpp.
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_ball_sparkle_decorator_ad4e98ec20a12be0c8b0481879d4c2d17}\label{class_ball_sparkle_decorator_ad4e98ec20a12be0c8b0481879d4c2d17}} 
+\index{Ball\+Sparkle\+Decorator@{Ball\+Sparkle\+Decorator}!fade\+Rate@{fade\+Rate}}
+\index{fade\+Rate@{fade\+Rate}!Ball\+Sparkle\+Decorator@{Ball\+Sparkle\+Decorator}}
+\subsubsection{\texorpdfstring{fade\+Rate}{fadeRate}}
+{\footnotesize\ttfamily constexpr double Ball\+Sparkle\+Decorator\+::fade\+Rate = 0.\+01\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [protected]}}
+
+
+
+Definition at line 97 of file balldecorator.\+h.
+
+\mbox{\Hypertarget{class_ball_sparkle_decorator_a225c9a37159214fbb658148713227fcf}\label{class_ball_sparkle_decorator_a225c9a37159214fbb658148713227fcf}} 
+\index{Ball\+Sparkle\+Decorator@{Ball\+Sparkle\+Decorator}!m\+\_\+sparkle\+Positions@{m\+\_\+sparkle\+Positions}}
+\index{m\+\_\+sparkle\+Positions@{m\+\_\+sparkle\+Positions}!Ball\+Sparkle\+Decorator@{Ball\+Sparkle\+Decorator}}
+\subsubsection{\texorpdfstring{m\+\_\+sparkle\+Positions}{m\_sparklePositions}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{struct_ball_sparkle_decorator_1_1_sparkle}{Sparkle}}$>$ Ball\+Sparkle\+Decorator\+::m\+\_\+sparkle\+Positions\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 99 of file balldecorator.\+h.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{balldecorator_8h}{balldecorator.\+h}}\item 
+\mbox{\hyperlink{balldecorator_8cpp}{balldecorator.\+cpp}}\end{DoxyCompactItemize}

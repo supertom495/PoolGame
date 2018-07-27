@@ -1,0 +1,130 @@
+\hypertarget{class_stage_two_factory}{}\section{Stage\+Two\+Factory Class Reference}
+\label{class_stage_two_factory}\index{Stage\+Two\+Factory@{Stage\+Two\+Factory}}
+
+
+{\ttfamily \#include $<$stagetwofactory.\+h$>$}
+
+Inheritance diagram for Stage\+Two\+Factory\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_stage_two_factory}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_stage_two_factory_acac1c74cee2fc4a3fea6b59dc60cb0eb}{Stage\+Two\+Factory}} ()
+\item 
+virtual \mbox{\hyperlink{class_ball}{Ball}} $\ast$ \mbox{\hyperlink{class_stage_two_factory_aa12e02122eea28b08b3e148521bc2055}{make\+Ball}} (const Q\+Json\+Object \&ball\+Data) override
+\begin{DoxyCompactList}\small\item\em make\+Ball -\/ construct a ball based on json \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{class_table}{Table}} $\ast$ \mbox{\hyperlink{class_stage_two_factory_aa532818e02bed0ea1f5c79a1a1487e71}{make\+Table}} (const Q\+Json\+Object \&table\+Data) override
+\begin{DoxyCompactList}\small\item\em make\+Table -\/ construct a table based on json \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{class_pocket}{Pocket}} $\ast$ \mbox{\hyperlink{class_stage_two_factory_a6b66c413691103cf5df2840bcdb683ef}{make\+Pocket}} (const Q\+Json\+Object \&pocket\+Data) override
+\begin{DoxyCompactList}\small\item\em make\+Pocket -\/ construct a pocket based on json \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 7 of file stagetwofactory.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_stage_two_factory_acac1c74cee2fc4a3fea6b59dc60cb0eb}\label{class_stage_two_factory_acac1c74cee2fc4a3fea6b59dc60cb0eb}} 
+\index{Stage\+Two\+Factory@{Stage\+Two\+Factory}!Stage\+Two\+Factory@{Stage\+Two\+Factory}}
+\index{Stage\+Two\+Factory@{Stage\+Two\+Factory}!Stage\+Two\+Factory@{Stage\+Two\+Factory}}
+\subsubsection{\texorpdfstring{Stage\+Two\+Factory()}{StageTwoFactory()}}
+{\footnotesize\ttfamily Stage\+Two\+Factory\+::\+Stage\+Two\+Factory (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 10 of file stagetwofactory.\+h.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_stage_two_factory_aa12e02122eea28b08b3e148521bc2055}\label{class_stage_two_factory_aa12e02122eea28b08b3e148521bc2055}} 
+\index{Stage\+Two\+Factory@{Stage\+Two\+Factory}!make\+Ball@{make\+Ball}}
+\index{make\+Ball@{make\+Ball}!Stage\+Two\+Factory@{Stage\+Two\+Factory}}
+\subsubsection{\texorpdfstring{make\+Ball()}{makeBall()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_ball}{Ball}} $\ast$ Stage\+Two\+Factory\+::make\+Ball (\begin{DoxyParamCaption}\item[{const Q\+Json\+Object \&}]{ball\+Data }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+make\+Ball -\/ construct a ball based on json 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ball\+Data} & -\/ our json data for this table \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_abstract_stage_factory_a23367d64366e679aaff865620f5ce1ab}{Abstract\+Stage\+Factory}}.
+
+
+
+Definition at line 12 of file stagetwofactory.\+cpp.
+
+\mbox{\Hypertarget{class_stage_two_factory_a6b66c413691103cf5df2840bcdb683ef}\label{class_stage_two_factory_a6b66c413691103cf5df2840bcdb683ef}} 
+\index{Stage\+Two\+Factory@{Stage\+Two\+Factory}!make\+Pocket@{make\+Pocket}}
+\index{make\+Pocket@{make\+Pocket}!Stage\+Two\+Factory@{Stage\+Two\+Factory}}
+\subsubsection{\texorpdfstring{make\+Pocket()}{makePocket()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_pocket}{Pocket}} $\ast$ Stage\+Two\+Factory\+::make\+Pocket (\begin{DoxyParamCaption}\item[{const Q\+Json\+Object \&}]{pocket\+Data }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+make\+Pocket -\/ construct a pocket based on json 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pocket\+Data} & -\/ the json \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+newly created pocket 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_abstract_stage_factory_a6ce57859e00b135049e3b995b7dfc94d}{Abstract\+Stage\+Factory}}.
+
+
+
+Definition at line 4 of file stagetwofactory.\+cpp.
+
+\mbox{\Hypertarget{class_stage_two_factory_aa532818e02bed0ea1f5c79a1a1487e71}\label{class_stage_two_factory_aa532818e02bed0ea1f5c79a1a1487e71}} 
+\index{Stage\+Two\+Factory@{Stage\+Two\+Factory}!make\+Table@{make\+Table}}
+\index{make\+Table@{make\+Table}!Stage\+Two\+Factory@{Stage\+Two\+Factory}}
+\subsubsection{\texorpdfstring{make\+Table()}{makeTable()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_table}{Table}} $\ast$ Stage\+Two\+Factory\+::make\+Table (\begin{DoxyParamCaption}\item[{const Q\+Json\+Object \&}]{table\+Data }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+make\+Table -\/ construct a table based on json 
+
+
+\begin{DoxyParams}{Parameters}
+{\em table\+Data} & -\/ our json data for this table \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_abstract_stage_factory_a539c855ce9a09e08b7fcb3ffa7f0d3fd}{Abstract\+Stage\+Factory}}.
+
+
+
+Definition at line 35 of file stagetwofactory.\+cpp.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{stagetwofactory_8h}{stagetwofactory.\+h}}\item 
+\mbox{\hyperlink{stagetwofactory_8cpp}{stagetwofactory.\+cpp}}\end{DoxyCompactItemize}

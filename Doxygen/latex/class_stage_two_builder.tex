@@ -1,0 +1,132 @@
+\hypertarget{class_stage_two_builder}{}\section{Stage\+Two\+Builder Class Reference}
+\label{class_stage_two_builder}\index{Stage\+Two\+Builder@{Stage\+Two\+Builder}}
+
+
+{\ttfamily \#include $<$stagetwobuilder.\+h$>$}
+
+Inheritance diagram for Stage\+Two\+Builder\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_stage_two_builder}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_stage_two_builder_a46f9a84e6bde6ed8504f3c3f9bad71f3}{$\sim$\+Stage\+Two\+Builder}} ()
+\item 
+\mbox{\hyperlink{class_stage_two_builder_a1cf9558f9d7487a87ffae237c8546f8e}{Stage\+Two\+Builder}} ()
+\item 
+void \mbox{\hyperlink{class_stage_two_builder_a8b2b783294c26b5f40d16bdd54d86301}{add\+Ball}} (Q\+Json\+Object \&ball\+Data) override
+\begin{DoxyCompactList}\small\item\em add\+Ball creates a ball to the current game being buil \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_stage_two_builder_a7326ee514e752cab6d994352f5ef68e0}{add\+Table}} (Q\+Json\+Object \&table\+Data) override
+\begin{DoxyCompactList}\small\item\em add\+Table creates a table to the current game being built \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{class_game}{Game}} $\ast$ \mbox{\hyperlink{class_stage_two_builder_ac40c00c49b18b7c4f83f4474a8cd9c73}{get\+Result}} () override
+\begin{DoxyCompactList}\small\item\em get\+Result -\/ retrieve the built object \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 7 of file stagetwobuilder.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_stage_two_builder_a46f9a84e6bde6ed8504f3c3f9bad71f3}\label{class_stage_two_builder_a46f9a84e6bde6ed8504f3c3f9bad71f3}} 
+\index{Stage\+Two\+Builder@{Stage\+Two\+Builder}!````~Stage\+Two\+Builder@{$\sim$\+Stage\+Two\+Builder}}
+\index{````~Stage\+Two\+Builder@{$\sim$\+Stage\+Two\+Builder}!Stage\+Two\+Builder@{Stage\+Two\+Builder}}
+\subsubsection{\texorpdfstring{$\sim$\+Stage\+Two\+Builder()}{~StageTwoBuilder()}}
+{\footnotesize\ttfamily Stage\+Two\+Builder\+::$\sim$\+Stage\+Two\+Builder (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 9 of file stagetwobuilder.\+h.
+
+\mbox{\Hypertarget{class_stage_two_builder_a1cf9558f9d7487a87ffae237c8546f8e}\label{class_stage_two_builder_a1cf9558f9d7487a87ffae237c8546f8e}} 
+\index{Stage\+Two\+Builder@{Stage\+Two\+Builder}!Stage\+Two\+Builder@{Stage\+Two\+Builder}}
+\index{Stage\+Two\+Builder@{Stage\+Two\+Builder}!Stage\+Two\+Builder@{Stage\+Two\+Builder}}
+\subsubsection{\texorpdfstring{Stage\+Two\+Builder()}{StageTwoBuilder()}}
+{\footnotesize\ttfamily Stage\+Two\+Builder\+::\+Stage\+Two\+Builder (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 10 of file stagetwobuilder.\+h.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_stage_two_builder_a8b2b783294c26b5f40d16bdd54d86301}\label{class_stage_two_builder_a8b2b783294c26b5f40d16bdd54d86301}} 
+\index{Stage\+Two\+Builder@{Stage\+Two\+Builder}!add\+Ball@{add\+Ball}}
+\index{add\+Ball@{add\+Ball}!Stage\+Two\+Builder@{Stage\+Two\+Builder}}
+\subsubsection{\texorpdfstring{add\+Ball()}{addBall()}}
+{\footnotesize\ttfamily void Stage\+Two\+Builder\+::add\+Ball (\begin{DoxyParamCaption}\item[{Q\+Json\+Object \&}]{ball\+Data }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+add\+Ball creates a ball to the current game being buil 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ball\+Data} & -\/ json object that is simply an element of the array of balls provided in the config \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_game_builder_a836186637bd2f7844f7dfac0135d833b}{Game\+Builder}}.
+
+
+
+Definition at line 140 of file stagetwobuilder.\+cpp.
+
+\mbox{\Hypertarget{class_stage_two_builder_a7326ee514e752cab6d994352f5ef68e0}\label{class_stage_two_builder_a7326ee514e752cab6d994352f5ef68e0}} 
+\index{Stage\+Two\+Builder@{Stage\+Two\+Builder}!add\+Table@{add\+Table}}
+\index{add\+Table@{add\+Table}!Stage\+Two\+Builder@{Stage\+Two\+Builder}}
+\subsubsection{\texorpdfstring{add\+Table()}{addTable()}}
+{\footnotesize\ttfamily void Stage\+Two\+Builder\+::add\+Table (\begin{DoxyParamCaption}\item[{Q\+Json\+Object \&}]{table\+Data }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+add\+Table creates a table to the current game being built 
+
+
+\begin{DoxyParams}{Parameters}
+{\em table\+Data} & -\/ json object that contains all properties of the table \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_game_builder_a65fb629009c18956a8d592352eda1eb5}{Game\+Builder}}.
+
+
+
+Definition at line 207 of file stagetwobuilder.\+cpp.
+
+\mbox{\Hypertarget{class_stage_two_builder_ac40c00c49b18b7c4f83f4474a8cd9c73}\label{class_stage_two_builder_ac40c00c49b18b7c4f83f4474a8cd9c73}} 
+\index{Stage\+Two\+Builder@{Stage\+Two\+Builder}!get\+Result@{get\+Result}}
+\index{get\+Result@{get\+Result}!Stage\+Two\+Builder@{Stage\+Two\+Builder}}
+\subsubsection{\texorpdfstring{get\+Result()}{getResult()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_game}{Game}} $\ast$ Stage\+Two\+Builder\+::get\+Result (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+get\+Result -\/ retrieve the built object 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{class_game_builder_a490e3dbb7f8289edb2a080a3383f8607}{Game\+Builder}}.
+
+
+
+Definition at line 230 of file stagetwobuilder.\+cpp.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{stagetwobuilder_8h}{stagetwobuilder.\+h}}\item 
+\mbox{\hyperlink{stagetwobuilder_8cpp}{stagetwobuilder.\+cpp}}\end{DoxyCompactItemize}

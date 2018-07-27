@@ -1,0 +1,305 @@
+\hypertarget{class_ball_decorator}{}\section{Ball\+Decorator Class Reference}
+\label{class_ball_decorator}\index{Ball\+Decorator@{Ball\+Decorator}}
+
+
+The \mbox{\hyperlink{class_ball_decorator}{Ball\+Decorator}} class This acts as a Decorator. Any methods not overriden can simply forward the requests onto the Class this is decorated.  
+
+
+
+
+{\ttfamily \#include $<$balldecorator.\+h$>$}
+
+Inheritance diagram for Ball\+Decorator\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_ball_decorator}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_ball_decorator_a8ba466927a1d9eb97ee0094a11b5596c}{Ball\+Decorator}} (\mbox{\hyperlink{class_ball}{Ball}} $\ast$b)
+\item 
+virtual \mbox{\hyperlink{class_ball_decorator_a0bf37b0a36b6db334d7073f01d7ce6e7}{$\sim$\+Ball\+Decorator}} ()
+\item 
+virtual void \mbox{\hyperlink{class_ball_decorator_af8205f8033b2490ecd3365c24ff5cdeb}{render}} (Q\+Painter \&painter, const Q\+Vector2D \&offset) override
+\begin{DoxyCompactList}\small\item\em render -\/ draw the ball to the screen \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_ball_decorator_aae30ba0b71629db797e0ea2639c5e32d}{translate}} (Q\+Vector2D vec) override
+\begin{DoxyCompactList}\small\item\em translate -\/ Move the ball\textquotesingle{}s position by provided vector \end{DoxyCompactList}\item 
+virtual Q\+Vector2D \mbox{\hyperlink{class_ball_decorator_aa2123d7419801968b7fce98e546397b7}{get\+Velocity}} () const override
+\item 
+virtual void \mbox{\hyperlink{class_ball_decorator_aae01d9541d78d1a679ace63127aacd69}{set\+Velocity}} (Q\+Vector2D v) override
+\item 
+virtual void \mbox{\hyperlink{class_ball_decorator_a3e4f4d31f6409f018b8b337bcf2bd284}{change\+Velocity}} (const Q\+Vector2D \&delta) override
+\begin{DoxyCompactList}\small\item\em change\+Velocity -\/ modify speed by a constant amount \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_ball_decorator_ad1a9139a5c41d17d0eebf007afb984e7}{multiply\+Velocity}} (const Q\+Vector2D \&vel) override
+\begin{DoxyCompactList}\small\item\em multiply\+Velocity -\/ apply vector multiplicatively \end{DoxyCompactList}\item 
+virtual double \mbox{\hyperlink{class_ball_decorator_acf6892e513f9dc01bb6f87028e8ca9d5}{get\+Mass}} () const override
+\item 
+virtual double \mbox{\hyperlink{class_ball_decorator_af842f5b568d3baa21fd68bb4ede7068a}{get\+Radius}} () const override
+\item 
+virtual Q\+Vector2D \mbox{\hyperlink{class_ball_decorator_a40b5df839e4f1aaec4ee792749757848}{get\+Position}} () const override
+\item 
+virtual void \mbox{\hyperlink{class_ball_decorator_aad7c3ecc4449881048f8610ecc73ec31}{set\+Position}} (Q\+Vector2D p) override
+\item 
+virtual bool \mbox{\hyperlink{class_ball_decorator_a6c11bb4c2a4accb0167a71c8a5cc5ea7}{apply\+Break}} (const Q\+Vector2D \&q, std\+::vector$<$ \mbox{\hyperlink{class_ball}{Ball}} $\ast$$>$ \&b) override
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_ball}{Ball}} $\ast$ \mbox{\hyperlink{class_ball_decorator_ab002bec02e2638a0c600c467f51e27f3}{m\+\_\+sub\+Ball}}
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+The \mbox{\hyperlink{class_ball_decorator}{Ball\+Decorator}} class This acts as a Decorator. Any methods not overriden can simply forward the requests onto the Class this is decorated. 
+
+Definition at line 10 of file balldecorator.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_ball_decorator_a8ba466927a1d9eb97ee0094a11b5596c}\label{class_ball_decorator_a8ba466927a1d9eb97ee0094a11b5596c}} 
+\index{Ball\+Decorator@{Ball\+Decorator}!Ball\+Decorator@{Ball\+Decorator}}
+\index{Ball\+Decorator@{Ball\+Decorator}!Ball\+Decorator@{Ball\+Decorator}}
+\subsubsection{\texorpdfstring{Ball\+Decorator()}{BallDecorator()}}
+{\footnotesize\ttfamily Ball\+Decorator\+::\+Ball\+Decorator (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_ball}{Ball}} $\ast$}]{b }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 14 of file balldecorator.\+h.
+
+\mbox{\Hypertarget{class_ball_decorator_a0bf37b0a36b6db334d7073f01d7ce6e7}\label{class_ball_decorator_a0bf37b0a36b6db334d7073f01d7ce6e7}} 
+\index{Ball\+Decorator@{Ball\+Decorator}!````~Ball\+Decorator@{$\sim$\+Ball\+Decorator}}
+\index{````~Ball\+Decorator@{$\sim$\+Ball\+Decorator}!Ball\+Decorator@{Ball\+Decorator}}
+\subsubsection{\texorpdfstring{$\sim$\+Ball\+Decorator()}{~BallDecorator()}}
+{\footnotesize\ttfamily virtual Ball\+Decorator\+::$\sim$\+Ball\+Decorator (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Definition at line 15 of file balldecorator.\+h.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_ball_decorator_a6c11bb4c2a4accb0167a71c8a5cc5ea7}\label{class_ball_decorator_a6c11bb4c2a4accb0167a71c8a5cc5ea7}} 
+\index{Ball\+Decorator@{Ball\+Decorator}!apply\+Break@{apply\+Break}}
+\index{apply\+Break@{apply\+Break}!Ball\+Decorator@{Ball\+Decorator}}
+\subsubsection{\texorpdfstring{apply\+Break()}{applyBreak()}}
+{\footnotesize\ttfamily virtual bool Ball\+Decorator\+::apply\+Break (\begin{DoxyParamCaption}\item[{const Q\+Vector2D \&}]{q,  }\item[{std\+::vector$<$ \mbox{\hyperlink{class_ball}{Ball}} $\ast$$>$ \&}]{b }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_ball_a9df4c9fc8620d003cf9717d84e64d5ee}{Ball}}.
+
+
+
+Definition at line 29 of file balldecorator.\+h.
+
+\mbox{\Hypertarget{class_ball_decorator_a3e4f4d31f6409f018b8b337bcf2bd284}\label{class_ball_decorator_a3e4f4d31f6409f018b8b337bcf2bd284}} 
+\index{Ball\+Decorator@{Ball\+Decorator}!change\+Velocity@{change\+Velocity}}
+\index{change\+Velocity@{change\+Velocity}!Ball\+Decorator@{Ball\+Decorator}}
+\subsubsection{\texorpdfstring{change\+Velocity()}{changeVelocity()}}
+{\footnotesize\ttfamily virtual void Ball\+Decorator\+::change\+Velocity (\begin{DoxyParamCaption}\item[{const Q\+Vector2D \&}]{delta }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+change\+Velocity -\/ modify speed by a constant amount 
+
+
+\begin{DoxyParams}{Parameters}
+{\em delta} & -\/ change in velocity (x,y) \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{class_ball_add51f90f60cb862daa8f3f7aa743f933}{Ball}}.
+
+
+
+Reimplemented in \mbox{\hyperlink{class_ball_smash_decorator_ad59848156e8eabad3e561a1d113f7029}{Ball\+Smash\+Decorator}}.
+
+
+
+Definition at line 22 of file balldecorator.\+h.
+
+\mbox{\Hypertarget{class_ball_decorator_acf6892e513f9dc01bb6f87028e8ca9d5}\label{class_ball_decorator_acf6892e513f9dc01bb6f87028e8ca9d5}} 
+\index{Ball\+Decorator@{Ball\+Decorator}!get\+Mass@{get\+Mass}}
+\index{get\+Mass@{get\+Mass}!Ball\+Decorator@{Ball\+Decorator}}
+\subsubsection{\texorpdfstring{get\+Mass()}{getMass()}}
+{\footnotesize\ttfamily virtual double Ball\+Decorator\+::get\+Mass (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_ball_a4b8e6ae922e7c1bfe6ab4568a591580e}{Ball}}.
+
+
+
+Definition at line 25 of file balldecorator.\+h.
+
+\mbox{\Hypertarget{class_ball_decorator_a40b5df839e4f1aaec4ee792749757848}\label{class_ball_decorator_a40b5df839e4f1aaec4ee792749757848}} 
+\index{Ball\+Decorator@{Ball\+Decorator}!get\+Position@{get\+Position}}
+\index{get\+Position@{get\+Position}!Ball\+Decorator@{Ball\+Decorator}}
+\subsubsection{\texorpdfstring{get\+Position()}{getPosition()}}
+{\footnotesize\ttfamily virtual Q\+Vector2D Ball\+Decorator\+::get\+Position (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_ball_a8861d6e0221d1b4d8468458fc2ec9b3c}{Ball}}.
+
+
+
+Definition at line 27 of file balldecorator.\+h.
+
+\mbox{\Hypertarget{class_ball_decorator_af842f5b568d3baa21fd68bb4ede7068a}\label{class_ball_decorator_af842f5b568d3baa21fd68bb4ede7068a}} 
+\index{Ball\+Decorator@{Ball\+Decorator}!get\+Radius@{get\+Radius}}
+\index{get\+Radius@{get\+Radius}!Ball\+Decorator@{Ball\+Decorator}}
+\subsubsection{\texorpdfstring{get\+Radius()}{getRadius()}}
+{\footnotesize\ttfamily virtual double Ball\+Decorator\+::get\+Radius (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_ball_a311b644cb28ee7c864806312ff52a594}{Ball}}.
+
+
+
+Definition at line 26 of file balldecorator.\+h.
+
+\mbox{\Hypertarget{class_ball_decorator_aa2123d7419801968b7fce98e546397b7}\label{class_ball_decorator_aa2123d7419801968b7fce98e546397b7}} 
+\index{Ball\+Decorator@{Ball\+Decorator}!get\+Velocity@{get\+Velocity}}
+\index{get\+Velocity@{get\+Velocity}!Ball\+Decorator@{Ball\+Decorator}}
+\subsubsection{\texorpdfstring{get\+Velocity()}{getVelocity()}}
+{\footnotesize\ttfamily virtual Q\+Vector2D Ball\+Decorator\+::get\+Velocity (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_ball_a016798bb733965c67e70b8abfc661e5b}{Ball}}.
+
+
+
+Definition at line 20 of file balldecorator.\+h.
+
+\mbox{\Hypertarget{class_ball_decorator_ad1a9139a5c41d17d0eebf007afb984e7}\label{class_ball_decorator_ad1a9139a5c41d17d0eebf007afb984e7}} 
+\index{Ball\+Decorator@{Ball\+Decorator}!multiply\+Velocity@{multiply\+Velocity}}
+\index{multiply\+Velocity@{multiply\+Velocity}!Ball\+Decorator@{Ball\+Decorator}}
+\subsubsection{\texorpdfstring{multiply\+Velocity()}{multiplyVelocity()}}
+{\footnotesize\ttfamily virtual void Ball\+Decorator\+::multiply\+Velocity (\begin{DoxyParamCaption}\item[{const Q\+Vector2D \&}]{vel }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+multiply\+Velocity -\/ apply vector multiplicatively 
+
+
+\begin{DoxyParams}{Parameters}
+{\em vel} & -\/ vector \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{class_ball_aacc57301046fab52930f7615073136e0}{Ball}}.
+
+
+
+Reimplemented in \mbox{\hyperlink{class_ball_smash_decorator_a017998926f2b3ebdfcf49e074ea86aae}{Ball\+Smash\+Decorator}}.
+
+
+
+Definition at line 23 of file balldecorator.\+h.
+
+\mbox{\Hypertarget{class_ball_decorator_af8205f8033b2490ecd3365c24ff5cdeb}\label{class_ball_decorator_af8205f8033b2490ecd3365c24ff5cdeb}} 
+\index{Ball\+Decorator@{Ball\+Decorator}!render@{render}}
+\index{render@{render}!Ball\+Decorator@{Ball\+Decorator}}
+\subsubsection{\texorpdfstring{render()}{render()}}
+{\footnotesize\ttfamily virtual void Ball\+Decorator\+::render (\begin{DoxyParamCaption}\item[{Q\+Painter \&}]{painter,  }\item[{const Q\+Vector2D \&}]{offset }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+render -\/ draw the ball to the screen 
+
+
+\begin{DoxyParams}{Parameters}
+{\em painter} & -\/ Q\+Painter that is owned by the dialog \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_ball_a307773aaa59aee90cef8767b0c22deca}{Ball}}.
+
+
+
+Reimplemented in \mbox{\hyperlink{class_ball_smash_decorator_a8cbf47d481100f16f2376670fee9fdcc}{Ball\+Smash\+Decorator}}, \mbox{\hyperlink{class_ball_sparkle_decorator_a3f292b99228264bee08c672184ab6ad5}{Ball\+Sparkle\+Decorator}}, and \mbox{\hyperlink{class_cue_ball_a915a83205e4cfc720fbd884b045e2f81}{Cue\+Ball}}.
+
+
+
+Definition at line 18 of file balldecorator.\+h.
+
+\mbox{\Hypertarget{class_ball_decorator_aad7c3ecc4449881048f8610ecc73ec31}\label{class_ball_decorator_aad7c3ecc4449881048f8610ecc73ec31}} 
+\index{Ball\+Decorator@{Ball\+Decorator}!set\+Position@{set\+Position}}
+\index{set\+Position@{set\+Position}!Ball\+Decorator@{Ball\+Decorator}}
+\subsubsection{\texorpdfstring{set\+Position()}{setPosition()}}
+{\footnotesize\ttfamily virtual void Ball\+Decorator\+::set\+Position (\begin{DoxyParamCaption}\item[{Q\+Vector2D}]{p }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_ball_af656c9b3f7eb0f966f71eb100323559f}{Ball}}.
+
+
+
+Definition at line 28 of file balldecorator.\+h.
+
+\mbox{\Hypertarget{class_ball_decorator_aae01d9541d78d1a679ace63127aacd69}\label{class_ball_decorator_aae01d9541d78d1a679ace63127aacd69}} 
+\index{Ball\+Decorator@{Ball\+Decorator}!set\+Velocity@{set\+Velocity}}
+\index{set\+Velocity@{set\+Velocity}!Ball\+Decorator@{Ball\+Decorator}}
+\subsubsection{\texorpdfstring{set\+Velocity()}{setVelocity()}}
+{\footnotesize\ttfamily virtual void Ball\+Decorator\+::set\+Velocity (\begin{DoxyParamCaption}\item[{Q\+Vector2D}]{v }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_ball_a2067db4efee62b1ff618b782fc93818c}{Ball}}.
+
+
+
+Definition at line 21 of file balldecorator.\+h.
+
+\mbox{\Hypertarget{class_ball_decorator_aae30ba0b71629db797e0ea2639c5e32d}\label{class_ball_decorator_aae30ba0b71629db797e0ea2639c5e32d}} 
+\index{Ball\+Decorator@{Ball\+Decorator}!translate@{translate}}
+\index{translate@{translate}!Ball\+Decorator@{Ball\+Decorator}}
+\subsubsection{\texorpdfstring{translate()}{translate()}}
+{\footnotesize\ttfamily virtual void Ball\+Decorator\+::translate (\begin{DoxyParamCaption}\item[{Q\+Vector2D}]{vec }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+translate -\/ Move the ball\textquotesingle{}s position by provided vector 
+
+
+\begin{DoxyParams}{Parameters}
+{\em vec} & -\/ vector \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{class_ball_a88546ffd1a37b301a5c7085f3eabe8f0}{Ball}}.
+
+
+
+Definition at line 19 of file balldecorator.\+h.
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_ball_decorator_ab002bec02e2638a0c600c467f51e27f3}\label{class_ball_decorator_ab002bec02e2638a0c600c467f51e27f3}} 
+\index{Ball\+Decorator@{Ball\+Decorator}!m\+\_\+sub\+Ball@{m\+\_\+sub\+Ball}}
+\index{m\+\_\+sub\+Ball@{m\+\_\+sub\+Ball}!Ball\+Decorator@{Ball\+Decorator}}
+\subsubsection{\texorpdfstring{m\+\_\+sub\+Ball}{m\_subBall}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_ball}{Ball}}$\ast$ Ball\+Decorator\+::m\+\_\+sub\+Ball\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 12 of file balldecorator.\+h.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{balldecorator_8h}{balldecorator.\+h}}\end{DoxyCompactItemize}

@@ -1,0 +1,463 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML><HEAD></HEAD><BODY>
+<OBJECT type="text/site properties">
+<param name="FrameName" value="right">
+</OBJECT>
+<UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_abstract_stage_factory.html"><param name="Name" value="AbstractStageFactory"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_abstract_stage_factory.html#a23367d64366e679aaff865620f5ce1ab"><param name="Name" value="makeBall"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_abstract_stage_factory.html#a6ce57859e00b135049e3b995b7dfc94d"><param name="Name" value="makePocket"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_abstract_stage_factory.html#a539c855ce9a09e08b7fcb3ffa7f0d3fd"><param name="Name" value="makeTable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_abstract_stage_factory.html#a7a38775e61d51152b2331c83b6815404"><param name="Name" value="~AbstractStageFactory"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_game_builder.html#a836186637bd2f7844f7dfac0135d833b"><param name="Name" value="addBall"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_game_builder.html#a836186637bd2f7844f7dfac0135d833b"><param name="Name" value="GameBuilder"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_stage_one_builder.html#a9d7931aab89afcfa0b2c23da6fb10bfb"><param name="Name" value="StageOneBuilder"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_stage_two_builder.html#a8b2b783294c26b5f40d16bdd54d86301"><param name="Name" value="StageTwoBuilder"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_composite_ball.html#a6c226ee364012b0c3eb3271a01307297"><param name="Name" value="addChild"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball_smash_decorator.html#aa800f137e36d43bdfa86843091905186"><param name="Name" value="addCrumbs"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_stage_two_table.html#a13e9626ecbb5f84766efe7342e122873"><param name="Name" value="addPocket"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_game_builder.html#a65fb629009c18956a8d592352eda1eb5"><param name="Name" value="addTable"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_game_builder.html#a65fb629009c18956a8d592352eda1eb5"><param name="Name" value="GameBuilder"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_stage_one_builder.html#ac8f35ec11ebe31010410bc50b0149ce9"><param name="Name" value="StageOneBuilder"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_stage_two_builder.html#a7326ee514e752cab6d994352f5ef68e0"><param name="Name" value="StageTwoBuilder"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_game.html#a40c08e2135ae529a820cdeeff32c5144"><param name="Name" value="animate"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="utils_8h.html#a98a7326f78465e4b4de3271285aae66d"><param name="Name" value="animFrameMS"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball.html#a9df4c9fc8620d003cf9717d84e64d5ee"><param name="Name" value="applyBreak"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball.html#a9df4c9fc8620d003cf9717d84e64d5ee"><param name="Name" value="Ball"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball_decorator.html#a6c11bb4c2a4accb0167a71c8a5cc5ea7"><param name="Name" value="BallDecorator"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_composite_ball.html#a0da2c5749caafcef943f14a500a0fc9b"><param name="Name" value="CompositeBall"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball.html"><param name="Name" value="Ball"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball.html#a9df4c9fc8620d003cf9717d84e64d5ee"><param name="Name" value="applyBreak"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball.html#a81d492bd26dc3b4583da0b709375bbac"><param name="Name" value="Ball"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball.html#add51f90f60cb862daa8f3f7aa743f933"><param name="Name" value="changeVelocity"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball.html#a4b8e6ae922e7c1bfe6ab4568a591580e"><param name="Name" value="getMass"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball.html#a8861d6e0221d1b4d8468458fc2ec9b3c"><param name="Name" value="getPosition"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball.html#a311b644cb28ee7c864806312ff52a594"><param name="Name" value="getRadius"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball.html#a016798bb733965c67e70b8abfc661e5b"><param name="Name" value="getVelocity"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball.html#a8eeb4e79fca6415f0bacb80457f4487c"><param name="Name" value="m_brush"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball.html#ac1cab784df7b44bc48d236657c28a199"><param name="Name" value="m_mass"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball.html#a50924825251df59b5715b123ac5f6395"><param name="Name" value="m_pos"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball.html#a5121dd03edea304520c4e9f286be67c0"><param name="Name" value="m_radius"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball.html#a7c207fe7385c8d519ac85e8e6c9ceae5"><param name="Name" value="m_velocity"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball.html#a6b8169e6104a6fbcd29f81a7375bb031"><param name="Name" value="MovementEpsilon"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball.html#aacc57301046fab52930f7615073136e0"><param name="Name" value="multiplyVelocity"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball.html#a307773aaa59aee90cef8767b0c22deca"><param name="Name" value="render"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball.html#af656c9b3f7eb0f966f71eb100323559f"><param name="Name" value="setPosition"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball.html#a2067db4efee62b1ff618b782fc93818c"><param name="Name" value="setVelocity"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball.html#a88546ffd1a37b301a5c7085f3eabe8f0"><param name="Name" value="translate"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball.html#a78aa1f06b39fc9f81df82bef399c475c"><param name="Name" value="~Ball"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball_decorator.html"><param name="Name" value="BallDecorator"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball_decorator.html#a6c11bb4c2a4accb0167a71c8a5cc5ea7"><param name="Name" value="applyBreak"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball_decorator.html#a8ba466927a1d9eb97ee0094a11b5596c"><param name="Name" value="BallDecorator"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball_decorator.html#a3e4f4d31f6409f018b8b337bcf2bd284"><param name="Name" value="changeVelocity"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball_decorator.html#acf6892e513f9dc01bb6f87028e8ca9d5"><param name="Name" value="getMass"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball_decorator.html#a40b5df839e4f1aaec4ee792749757848"><param name="Name" value="getPosition"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball_decorator.html#af842f5b568d3baa21fd68bb4ede7068a"><param name="Name" value="getRadius"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball_decorator.html#aa2123d7419801968b7fce98e546397b7"><param name="Name" value="getVelocity"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball_decorator.html#ab002bec02e2638a0c600c467f51e27f3"><param name="Name" value="m_subBall"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball_decorator.html#ad1a9139a5c41d17d0eebf007afb984e7"><param name="Name" value="multiplyVelocity"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball_decorator.html#af8205f8033b2490ecd3365c24ff5cdeb"><param name="Name" value="render"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball_decorator.html#aad7c3ecc4449881048f8610ecc73ec31"><param name="Name" value="setPosition"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball_decorator.html#aae01d9541d78d1a679ace63127aacd69"><param name="Name" value="setVelocity"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball_decorator.html#aae30ba0b71629db797e0ea2639c5e32d"><param name="Name" value="translate"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball_decorator.html#a0bf37b0a36b6db334d7073f01d7ce6e7"><param name="Name" value="~BallDecorator"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball_smash_decorator.html"><param name="Name" value="BallSmashDecorator"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_ball_smash_decorator_1_1_crumb.html"><param name="Name" value="BallSmashDecorator::Crumb"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_ball_smash_decorator_1_1_crumb.html#a56aecb399208100c5949fd769841c471"><param name="Name" value="Crumb"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_ball_smash_decorator_1_1_crumb.html#aae0338b32f39f2afafdc80796591fe24"><param name="Name" value="dir"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_ball_smash_decorator_1_1_crumb.html#a127266575a109f1074ef8d007abcf97d"><param name="Name" value="height"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_ball_smash_decorator_1_1_crumb.html#a7d3c5a6ae93d33b50fc6209e2573ac80"><param name="Name" value="opacity"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_ball_smash_decorator_1_1_crumb.html#a227020594ba8919c73e6d99b81295015"><param name="Name" value="pos"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_ball_smash_decorator_1_1_crumb.html#a819ee5d8334f427a3e88d50dd020ff41"><param name="Name" value="width"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball_smash_decorator.html"><param name="Name" value="BallSmashDecorator"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball_smash_decorator.html#aa800f137e36d43bdfa86843091905186"><param name="Name" value="addCrumbs"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball_smash_decorator.html#a9820f584d49fa51ccf288b6bb4700744"><param name="Name" value="BallSmashDecorator"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball_smash_decorator.html#ad59848156e8eabad3e561a1d113f7029"><param name="Name" value="changeVelocity"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball_smash_decorator.html#aeef9438a9102847ca841bc657605e88b"><param name="Name" value="fadeRate"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball_smash_decorator.html#af9860ac78866ac55c8548b7fd8581610"><param name="Name" value="m_crumbs"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball_smash_decorator.html#a947a58aafc3f976931a532974d89abe0"><param name="Name" value="moveRate"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball_smash_decorator.html#a017998926f2b3ebdfcf49e074ea86aae"><param name="Name" value="multiplyVelocity"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball_smash_decorator.html#a8cbf47d481100f16f2376670fee9fdcc"><param name="Name" value="render"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball_sparkle_decorator.html"><param name="Name" value="BallSparkleDecorator"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_ball_sparkle_decorator_1_1_sparkle.html"><param name="Name" value="BallSparkleDecorator::Sparkle"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_ball_sparkle_decorator_1_1_sparkle.html#a3098571dbcb489f4821ac0446ef18d26"><param name="Name" value="height"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_ball_sparkle_decorator_1_1_sparkle.html#a44963032a6ce95c5b552d4c5159f88c2"><param name="Name" value="opacity"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_ball_sparkle_decorator_1_1_sparkle.html#aeb4b735006a31fa11fa78394a4848236"><param name="Name" value="pos"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_ball_sparkle_decorator_1_1_sparkle.html#a3c722e501faf223889464bd622375c11"><param name="Name" value="Sparkle"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_ball_sparkle_decorator_1_1_sparkle.html#a6602f6013f4b6d436cf07a67c9a2b98d"><param name="Name" value="width"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball_sparkle_decorator.html"><param name="Name" value="BallSparkleDecorator"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball_sparkle_decorator.html#aebdaa2c5204a050a297c9255d885d0c3"><param name="Name" value="BallSparkleDecorator"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball_sparkle_decorator.html#ad4e98ec20a12be0c8b0481879d4c2d17"><param name="Name" value="fadeRate"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball_sparkle_decorator.html#a225c9a37159214fbb658148713227fcf"><param name="Name" value="m_sparklePositions"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball_sparkle_decorator.html#a3f292b99228264bee08c672184ab6ad5"><param name="Name" value="render"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball.html#add51f90f60cb862daa8f3f7aa743f933"><param name="Name" value="changeVelocity"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball.html#add51f90f60cb862daa8f3f7aa743f933"><param name="Name" value="Ball"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball_decorator.html#a3e4f4d31f6409f018b8b337bcf2bd284"><param name="Name" value="BallDecorator"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball_smash_decorator.html#ad59848156e8eabad3e561a1d113f7029"><param name="Name" value="BallSmashDecorator"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_composite_ball.html"><param name="Name" value="CompositeBall"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_composite_ball.html#a6c226ee364012b0c3eb3271a01307297"><param name="Name" value="addChild"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_composite_ball.html#a0da2c5749caafcef943f14a500a0fc9b"><param name="Name" value="applyBreak"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_composite_ball.html#a7b6224c07ad69240377555508ddc8876"><param name="Name" value="CompositeBall"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_composite_ball.html#a2689ad5361a52d586f43dafd8922a422"><param name="Name" value="m_children"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_composite_ball.html#a751e10b0f9278bcf48720ac6af9bdd20"><param name="Name" value="m_renderChildren"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_composite_ball.html#a78051a7a01a600b88ed22e7d725640db"><param name="Name" value="m_strength"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_composite_ball.html#a05f96cd1c4321d89763dce5a15b53138"><param name="Name" value="recursiveRender"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_composite_ball.html#a2aefe32771e1cde5dc8f51d779c880eb"><param name="Name" value="render"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="utils_8h.html#a1aff699eae47d9fa6fe4cf7dbc13eb0f"><param name="Name" value="config_path"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_pocket.html#ac01b76c9853e24904296d467ceeaa821"><param name="Name" value="contains"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_game_director.html#a39ad3747cf1b3bf8a6e335167f73d04b"><param name="Name" value="createGame"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_ball_smash_decorator_1_1_crumb.html#a56aecb399208100c5949fd769841c471"><param name="Name" value="Crumb"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cue_ball.html"><param name="Name" value="CueBall"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cue_ball.html#a9a5dd540283fcd724b7f1a3bce11fbf0"><param name="Name" value="CueBall"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cue_ball.html#a83f8528e08491dc39f22888ddd3bfdff"><param name="Name" value="isDrawing"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cue_ball.html#a7035345f6ba5c29052a5a1444e3f076f"><param name="Name" value="isSubBallMoving"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cue_ball.html#a2266dea32739c919dbd7848167536a4e"><param name="Name" value="m_endMousePos"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cue_ball.html#a31c90da6dfe1fcaba9dae9a9860028b9"><param name="Name" value="m_startMousePos"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cue_ball.html#a915a83205e4cfc720fbd884b045e2f81"><param name="Name" value="render"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cue_ball.html#a297112b81595f308f717410f74d03d3c"><param name="Name" value="setEndMousePos"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cue_ball.html#a8aafe19b8226adfcca93621baeef29f4"><param name="Name" value="setReleasePos"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cue_ball.html#aa6165c3e37540234b621402e02c1c97c"><param name="Name" value="setStartMousePos"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cue_ball.html#a4cd3c714cdfc9f5dd9aeaa325f01bb18"><param name="Name" value="~CueBall"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_dialog.html"><param name="Name" value="Dialog"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_dialog.html#a50ae9716ee548a6f31fc5d0a29347899"><param name="Name" value="Dialog"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_dialog.html#aea6bb029efbb1eaa374bd938ff0afabf"><param name="Name" value="mouseMoveEvent"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_dialog.html#a95aaa4d78bda5c07650d383d3c5292ac"><param name="Name" value="mousePressEvent"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_dialog.html#a95158bddb719a98816c8432ddb096b27"><param name="Name" value="mouseReleaseEvent"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_dialog.html#a45158754d3f4531b29a0f50abde94597"><param name="Name" value="nextAnim"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_dialog.html#a93e4c843803f26bfe5746529cf163ec5"><param name="Name" value="paintEvent"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_dialog.html#aa887f720e12758049bb9f1f1814759da"><param name="Name" value="tryRender"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_dialog.html#a2a1fe6ef28513eed13bfcd3a4da83ccb"><param name="Name" value="~Dialog"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_ball_smash_decorator_1_1_crumb.html#aae0338b32f39f2afafdc80796591fe24"><param name="Name" value="dir"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="utils_8h.html#a886ca5636b50114abd8205e7b11b7f97"><param name="Name" value="DOUBLEINF"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="utils_8h.html#a51dda64bc6c1218767343462e8994aa0"><param name="Name" value="drawFrameMS"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball_smash_decorator.html#aeef9438a9102847ca841bc657605e88b"><param name="Name" value="fadeRate"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball_smash_decorator.html#aeef9438a9102847ca841bc657605e88b"><param name="Name" value="BallSmashDecorator"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball_sparkle_decorator.html#ad4e98ec20a12be0c8b0481879d4c2d17"><param name="Name" value="BallSparkleDecorator"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_game.html"><param name="Name" value="Game"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_game.html#a40c08e2135ae529a820cdeeff32c5144"><param name="Name" value="animate"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_game.html#a1d3aba143e23c5b7bafda7852c2ce3b9"><param name="Name" value="Game"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_game.html#a0712183d4b571d7e3aeb60745b597abd"><param name="Name" value="getMinimumHeight"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_game.html#a0eee5d6dca8985da6e57bd548214a507"><param name="Name" value="getMinimumWidth"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_game.html#ac574803a4cd9cb5f52f72268c5f22b40"><param name="Name" value="isColliding"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_game.html#af80284dbc78f4829aeb0f2420373f605"><param name="Name" value="render"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_game.html#a0f199fc70ac8c282fd08c0b904cea951"><param name="Name" value="resetIfCueBall"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_game.html#a8063ed6374c6bbadad0cbe71364fe764"><param name="Name" value="resolveCollision"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_game.html#a90e37bfb7f9221219423a4c8236dba49"><param name="Name" value="setCueBall"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_game.html#ae898c76a2d1142564341ec58abf42aa8"><param name="Name" value="setEndMousePos"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_game.html#ae7b77dd7112691d33efd260686cd900a"><param name="Name" value="setReleasePos"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_game.html#a14d2f562cd2e237844c8c3af5ed3bc21"><param name="Name" value="setStartMousePos"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_game.html#ae3d112ca6e0e55150d2fdbc704474530"><param name="Name" value="~Game"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_game_builder.html"><param name="Name" value="GameBuilder"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_game_builder.html#a836186637bd2f7844f7dfac0135d833b"><param name="Name" value="addBall"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_game_builder.html#a65fb629009c18956a8d592352eda1eb5"><param name="Name" value="addTable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_game_builder.html#a1540d75dc9f7beb42a95bbc083f86ae1"><param name="Name" value="GameBuilder"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_game_builder.html#a490e3dbb7f8289edb2a080a3383f8607"><param name="Name" value="getResult"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_game_builder.html#a00bf40f2a9c4c72ff8e9bc94201bb681"><param name="Name" value="m_buildingBalls"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_game_builder.html#a0fe16583df85f0360cfe9b06a7ea3aee"><param name="Name" value="m_buildingTable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_game_builder.html#a2b8da37dc88d521fc01841a2c308508f"><param name="Name" value="m_factory"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_game_builder.html#ad817a2588d910c2798dfb27808c29d48"><param name="Name" value="~GameBuilder"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_game_director.html"><param name="Name" value="GameDirector"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_game_director.html#a39ad3747cf1b3bf8a6e335167f73d04b"><param name="Name" value="createGame"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_game_director.html#a3ac974d917a3cff7a7873bcf9bbfc2ce"><param name="Name" value="GameDirector"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_game_director.html#af849b0b8309680e7eb53cc1803895aab"><param name="Name" value="setBuilder"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_game_director.html#a33c93c8581be00967a3d6cf4ce5bc9aa"><param name="Name" value="~GameDirector"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_table.html#a250960dffeb3fa744bf098a49ef78d8a"><param name="Name" value="getFriction"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_table.html#a3c40550751e65b563b3f1759bd12985c"><param name="Name" value="getHeight"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball.html#a4b8e6ae922e7c1bfe6ab4568a591580e"><param name="Name" value="getMass"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball.html#a4b8e6ae922e7c1bfe6ab4568a591580e"><param name="Name" value="Ball"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball_decorator.html#acf6892e513f9dc01bb6f87028e8ca9d5"><param name="Name" value="BallDecorator"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_game.html#a0712183d4b571d7e3aeb60745b597abd"><param name="Name" value="getMinimumHeight"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_game.html#a0eee5d6dca8985da6e57bd548214a507"><param name="Name" value="getMinimumWidth"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball.html#a8861d6e0221d1b4d8468458fc2ec9b3c"><param name="Name" value="getPosition"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball.html#a8861d6e0221d1b4d8468458fc2ec9b3c"><param name="Name" value="Ball"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball_decorator.html#a40b5df839e4f1aaec4ee792749757848"><param name="Name" value="BallDecorator"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball.html#a311b644cb28ee7c864806312ff52a594"><param name="Name" value="getRadius"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball.html#a311b644cb28ee7c864806312ff52a594"><param name="Name" value="Ball"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball_decorator.html#af842f5b568d3baa21fd68bb4ede7068a"><param name="Name" value="BallDecorator"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_game_builder.html#a490e3dbb7f8289edb2a080a3383f8607"><param name="Name" value="getResult"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_game_builder.html#a490e3dbb7f8289edb2a080a3383f8607"><param name="Name" value="GameBuilder"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_stage_two_builder.html#ac40c00c49b18b7c4f83f4474a8cd9c73"><param name="Name" value="StageTwoBuilder"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball.html#a016798bb733965c67e70b8abfc661e5b"><param name="Name" value="getVelocity"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball.html#a016798bb733965c67e70b8abfc661e5b"><param name="Name" value="Ball"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball_decorator.html#aa2123d7419801968b7fce98e546397b7"><param name="Name" value="BallDecorator"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_table.html#a767798fbd671c4c6805091a116439444"><param name="Name" value="getWidth"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_ball_smash_decorator_1_1_crumb.html#a127266575a109f1074ef8d007abcf97d"><param name="Name" value="height"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_ball_smash_decorator_1_1_crumb.html#a127266575a109f1074ef8d007abcf97d"><param name="Name" value="BallSmashDecorator::Crumb"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_ball_sparkle_decorator_1_1_sparkle.html#a3098571dbcb489f4821ac0446ef18d26"><param name="Name" value="BallSparkleDecorator::Sparkle"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_pocket.html#a4ba8a5305df04f95a25a6c7027b05c2b"><param name="Name" value="incrementSunk"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_game.html#ac574803a4cd9cb5f52f72268c5f22b40"><param name="Name" value="isColliding"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cue_ball.html#a83f8528e08491dc39f22888ddd3bfdff"><param name="Name" value="isDrawing"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cue_ball.html#a7035345f6ba5c29052a5a1444e3f076f"><param name="Name" value="isSubBallMoving"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8cpp.html#a37efa081d531cc5d8da08d21cb302ae1"><param name="Name" value="loadConfig"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball.html#a8eeb4e79fca6415f0bacb80457f4487c"><param name="Name" value="m_brush"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball.html#a8eeb4e79fca6415f0bacb80457f4487c"><param name="Name" value="Ball"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_table.html#a9c8db37610dfe62b570c7a386db69939"><param name="Name" value="Table"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_game_builder.html#a00bf40f2a9c4c72ff8e9bc94201bb681"><param name="Name" value="m_buildingBalls"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_game_builder.html#a0fe16583df85f0360cfe9b06a7ea3aee"><param name="Name" value="m_buildingTable"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_composite_ball.html#a2689ad5361a52d586f43dafd8922a422"><param name="Name" value="m_children"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball_smash_decorator.html#af9860ac78866ac55c8548b7fd8581610"><param name="Name" value="m_crumbs"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cue_ball.html#a2266dea32739c919dbd7848167536a4e"><param name="Name" value="m_endMousePos"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_game_builder.html#a2b8da37dc88d521fc01841a2c308508f"><param name="Name" value="m_factory"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_table.html#aa26465bb9074d6f07dec1a41a06a7d62"><param name="Name" value="m_friction"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_table.html#af1f22da42093769f53dcc3ebe7ea40c0"><param name="Name" value="m_height"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball.html#ac1cab784df7b44bc48d236657c28a199"><param name="Name" value="m_mass"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_stage_two_table.html#aba6026e62b3894b57264b080e6a72b75"><param name="Name" value="m_pockets"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball.html#a50924825251df59b5715b123ac5f6395"><param name="Name" value="m_pos"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball.html#a5121dd03edea304520c4e9f286be67c0"><param name="Name" value="m_radius"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_composite_ball.html#a751e10b0f9278bcf48720ac6af9bdd20"><param name="Name" value="m_renderChildren"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball_sparkle_decorator.html#a225c9a37159214fbb658148713227fcf"><param name="Name" value="m_sparklePositions"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cue_ball.html#a31c90da6dfe1fcaba9dae9a9860028b9"><param name="Name" value="m_startMousePos"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_composite_ball.html#a78051a7a01a600b88ed22e7d725640db"><param name="Name" value="m_strength"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball_decorator.html#ab002bec02e2638a0c600c467f51e27f3"><param name="Name" value="m_subBall"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball.html#a7c207fe7385c8d519ac85e8e6c9ceae5"><param name="Name" value="m_velocity"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_table.html#a1e99922a6f86bbbe649c4705590b3409"><param name="Name" value="m_width"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8cpp.html"><param name="Name" value="main.cpp"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8cpp.html#a37efa081d531cc5d8da08d21cb302ae1"><param name="Name" value="loadConfig"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"><param name="Name" value="main"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"><param name="Name" value="main"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_abstract_stage_factory.html#a23367d64366e679aaff865620f5ce1ab"><param name="Name" value="makeBall"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_abstract_stage_factory.html#a23367d64366e679aaff865620f5ce1ab"><param name="Name" value="AbstractStageFactory"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_stage_one_factory.html#a8a89031bc805b70d93e942275777394d"><param name="Name" value="StageOneFactory"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_stage_two_factory.html#aa12e02122eea28b08b3e148521bc2055"><param name="Name" value="StageTwoFactory"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_abstract_stage_factory.html#a6ce57859e00b135049e3b995b7dfc94d"><param name="Name" value="makePocket"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_abstract_stage_factory.html#a6ce57859e00b135049e3b995b7dfc94d"><param name="Name" value="AbstractStageFactory"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_stage_one_factory.html#ab9d7b7d74b61a2fd6c96562a67dc2fe8"><param name="Name" value="StageOneFactory"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_stage_two_factory.html#a6b66c413691103cf5df2840bcdb683ef"><param name="Name" value="StageTwoFactory"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_abstract_stage_factory.html#a539c855ce9a09e08b7fcb3ffa7f0d3fd"><param name="Name" value="makeTable"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_abstract_stage_factory.html#a539c855ce9a09e08b7fcb3ffa7f0d3fd"><param name="Name" value="AbstractStageFactory"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_stage_one_factory.html#a31e02c98e5c428f0e1ac0a36e641310d"><param name="Name" value="StageOneFactory"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_stage_two_factory.html#aa532818e02bed0ea1f5c79a1a1487e71"><param name="Name" value="StageTwoFactory"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_dialog.html#aea6bb029efbb1eaa374bd938ff0afabf"><param name="Name" value="mouseMoveEvent"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_dialog.html#a95aaa4d78bda5c07650d383d3c5292ac"><param name="Name" value="mousePressEvent"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_dialog.html#a95158bddb719a98816c8432ddb096b27"><param name="Name" value="mouseReleaseEvent"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball.html#a6b8169e6104a6fbcd29f81a7375bb031"><param name="Name" value="MovementEpsilon"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball_smash_decorator.html#a947a58aafc3f976931a532974d89abe0"><param name="Name" value="moveRate"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball.html#aacc57301046fab52930f7615073136e0"><param name="Name" value="multiplyVelocity"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball.html#aacc57301046fab52930f7615073136e0"><param name="Name" value="Ball"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball_decorator.html#ad1a9139a5c41d17d0eebf007afb984e7"><param name="Name" value="BallDecorator"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball_smash_decorator.html#a017998926f2b3ebdfcf49e074ea86aae"><param name="Name" value="BallSmashDecorator"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_dialog.html#a45158754d3f4531b29a0f50abde94597"><param name="Name" value="nextAnim"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_ball_smash_decorator_1_1_crumb.html#a7d3c5a6ae93d33b50fc6209e2573ac80"><param name="Name" value="opacity"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_ball_smash_decorator_1_1_crumb.html#a7d3c5a6ae93d33b50fc6209e2573ac80"><param name="Name" value="BallSmashDecorator::Crumb"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_ball_sparkle_decorator_1_1_sparkle.html#a44963032a6ce95c5b552d4c5159f88c2"><param name="Name" value="BallSparkleDecorator::Sparkle"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_dialog.html#a93e4c843803f26bfe5746529cf163ec5"><param name="Name" value="paintEvent"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_pocket.html"><param name="Name" value="Pocket"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_pocket.html#ac01b76c9853e24904296d467ceeaa821"><param name="Name" value="contains"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_pocket.html#a4ba8a5305df04f95a25a6c7027b05c2b"><param name="Name" value="incrementSunk"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_pocket.html#a967b7b80a4a7aba6b56509d1d0e28a24"><param name="Name" value="Pocket"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_pocket.html#ab6114f9e08389b3ccdba3676275479e7"><param name="Name" value="render"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_ball_smash_decorator_1_1_crumb.html#a227020594ba8919c73e6d99b81295015"><param name="Name" value="pos"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_ball_smash_decorator_1_1_crumb.html#a227020594ba8919c73e6d99b81295015"><param name="Name" value="BallSmashDecorator::Crumb"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_ball_sparkle_decorator_1_1_sparkle.html#aeb4b735006a31fa11fa78394a4848236"><param name="Name" value="BallSparkleDecorator::Sparkle"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_composite_ball.html#a05f96cd1c4321d89763dce5a15b53138"><param name="Name" value="recursiveRender"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball.html#a307773aaa59aee90cef8767b0c22deca"><param name="Name" value="render"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball.html#a307773aaa59aee90cef8767b0c22deca"><param name="Name" value="Ball"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball_decorator.html#af8205f8033b2490ecd3365c24ff5cdeb"><param name="Name" value="BallDecorator"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball_smash_decorator.html#a8cbf47d481100f16f2376670fee9fdcc"><param name="Name" value="BallSmashDecorator"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball_sparkle_decorator.html#a3f292b99228264bee08c672184ab6ad5"><param name="Name" value="BallSparkleDecorator"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_composite_ball.html#a2aefe32771e1cde5dc8f51d779c880eb"><param name="Name" value="CompositeBall"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cue_ball.html#a915a83205e4cfc720fbd884b045e2f81"><param name="Name" value="CueBall"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_game.html#af80284dbc78f4829aeb0f2420373f605"><param name="Name" value="Game"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_pocket.html#ab6114f9e08389b3ccdba3676275479e7"><param name="Name" value="Pocket"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_stage_one_ball.html#aa4f7f52cb8946b59c201d724dc0dc5bd"><param name="Name" value="StageOneBall"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_stage_one_table.html#a1f6dac59ce45c370f94fb3710f744ceb"><param name="Name" value="StageOneTable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_stage_two_table.html#ad19f7aa333b65d84b67ce2e55330a669"><param name="Name" value="StageTwoTable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_table.html#a827dac18920a95b3e0ef006183514654"><param name="Name" value="Table"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_game.html#a0f199fc70ac8c282fd08c0b904cea951"><param name="Name" value="resetIfCueBall"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_game.html#a8063ed6374c6bbadad0cbe71364fe764"><param name="Name" value="resolveCollision"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_game_director.html#af849b0b8309680e7eb53cc1803895aab"><param name="Name" value="setBuilder"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_game.html#a90e37bfb7f9221219423a4c8236dba49"><param name="Name" value="setCueBall"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cue_ball.html#a297112b81595f308f717410f74d03d3c"><param name="Name" value="setEndMousePos"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cue_ball.html#a297112b81595f308f717410f74d03d3c"><param name="Name" value="CueBall"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_game.html#ae898c76a2d1142564341ec58abf42aa8"><param name="Name" value="Game"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball.html#af656c9b3f7eb0f966f71eb100323559f"><param name="Name" value="setPosition"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball.html#af656c9b3f7eb0f966f71eb100323559f"><param name="Name" value="Ball"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball_decorator.html#aad7c3ecc4449881048f8610ecc73ec31"><param name="Name" value="BallDecorator"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cue_ball.html#a8aafe19b8226adfcca93621baeef29f4"><param name="Name" value="setReleasePos"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cue_ball.html#a8aafe19b8226adfcca93621baeef29f4"><param name="Name" value="CueBall"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_game.html#ae7b77dd7112691d33efd260686cd900a"><param name="Name" value="Game"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cue_ball.html#aa6165c3e37540234b621402e02c1c97c"><param name="Name" value="setStartMousePos"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cue_ball.html#aa6165c3e37540234b621402e02c1c97c"><param name="Name" value="CueBall"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_game.html#a14d2f562cd2e237844c8c3af5ed3bc21"><param name="Name" value="Game"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball.html#a2067db4efee62b1ff618b782fc93818c"><param name="Name" value="setVelocity"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball.html#a2067db4efee62b1ff618b782fc93818c"><param name="Name" value="Ball"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball_decorator.html#aae01d9541d78d1a679ace63127aacd69"><param name="Name" value="BallDecorator"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_stage_two_table.html#a3e015671be449da741adaf86e00ec844"><param name="Name" value="sinks"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_stage_two_table.html#a3e015671be449da741adaf86e00ec844"><param name="Name" value="StageTwoTable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_table.html#ab3eb192b2a06e26349d651e4e6de063a"><param name="Name" value="Table"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_ball_sparkle_decorator_1_1_sparkle.html#a3c722e501faf223889464bd622375c11"><param name="Name" value="Sparkle"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_stage_one_ball.html"><param name="Name" value="StageOneBall"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_stage_one_ball.html#aa4f7f52cb8946b59c201d724dc0dc5bd"><param name="Name" value="render"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_stage_one_ball.html#a70fd661f3b92f3e4745d4963b9b3ec80"><param name="Name" value="StageOneBall"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_stage_one_builder.html"><param name="Name" value="StageOneBuilder"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_stage_one_builder.html#a9d7931aab89afcfa0b2c23da6fb10bfb"><param name="Name" value="addBall"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_stage_one_builder.html#ac8f35ec11ebe31010410bc50b0149ce9"><param name="Name" value="addTable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_stage_one_builder.html#aaeaf7f5af709b6530e95db25bab3af13"><param name="Name" value="StageOneBuilder"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_stage_one_builder.html#a1008b1e1d473b4c3e3db2fca1122d4b0"><param name="Name" value="~StageOneBuilder"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_stage_one_factory.html"><param name="Name" value="StageOneFactory"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_stage_one_factory.html#a8a89031bc805b70d93e942275777394d"><param name="Name" value="makeBall"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_stage_one_factory.html#ab9d7b7d74b61a2fd6c96562a67dc2fe8"><param name="Name" value="makePocket"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_stage_one_factory.html#a31e02c98e5c428f0e1ac0a36e641310d"><param name="Name" value="makeTable"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_stage_one_table.html"><param name="Name" value="StageOneTable"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_stage_one_table.html#a1f6dac59ce45c370f94fb3710f744ceb"><param name="Name" value="render"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_stage_one_table.html#ae7bc7a1e4b873759a40039af326b38b9"><param name="Name" value="StageOneTable"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_stage_two_builder.html"><param name="Name" value="StageTwoBuilder"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_stage_two_builder.html#a8b2b783294c26b5f40d16bdd54d86301"><param name="Name" value="addBall"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_stage_two_builder.html#a7326ee514e752cab6d994352f5ef68e0"><param name="Name" value="addTable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_stage_two_builder.html#ac40c00c49b18b7c4f83f4474a8cd9c73"><param name="Name" value="getResult"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_stage_two_builder.html#a1cf9558f9d7487a87ffae237c8546f8e"><param name="Name" value="StageTwoBuilder"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_stage_two_builder.html#a46f9a84e6bde6ed8504f3c3f9bad71f3"><param name="Name" value="~StageTwoBuilder"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_stage_two_factory.html"><param name="Name" value="StageTwoFactory"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_stage_two_factory.html#aa12e02122eea28b08b3e148521bc2055"><param name="Name" value="makeBall"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_stage_two_factory.html#a6b66c413691103cf5df2840bcdb683ef"><param name="Name" value="makePocket"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_stage_two_factory.html#aa532818e02bed0ea1f5c79a1a1487e71"><param name="Name" value="makeTable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_stage_two_factory.html#acac1c74cee2fc4a3fea6b59dc60cb0eb"><param name="Name" value="StageTwoFactory"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_stage_two_table.html"><param name="Name" value="StageTwoTable"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_stage_two_table.html#a13e9626ecbb5f84766efe7342e122873"><param name="Name" value="addPocket"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_stage_two_table.html#aba6026e62b3894b57264b080e6a72b75"><param name="Name" value="m_pockets"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_stage_two_table.html#ad19f7aa333b65d84b67ce2e55330a669"><param name="Name" value="render"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_stage_two_table.html#a3e015671be449da741adaf86e00ec844"><param name="Name" value="sinks"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_stage_two_table.html#abfe56f335f3eda0c72ae8477fe65e71f"><param name="Name" value="StageTwoTable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_stage_two_table.html#a91ebe178acea5030255266e54adfa7a9"><param name="Name" value="~StageTwoTable"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_table.html"><param name="Name" value="Table"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_table.html#a250960dffeb3fa744bf098a49ef78d8a"><param name="Name" value="getFriction"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_table.html#a3c40550751e65b563b3f1759bd12985c"><param name="Name" value="getHeight"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_table.html#a767798fbd671c4c6805091a116439444"><param name="Name" value="getWidth"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_table.html#a9c8db37610dfe62b570c7a386db69939"><param name="Name" value="m_brush"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_table.html#aa26465bb9074d6f07dec1a41a06a7d62"><param name="Name" value="m_friction"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_table.html#af1f22da42093769f53dcc3ebe7ea40c0"><param name="Name" value="m_height"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_table.html#a1e99922a6f86bbbe649c4705590b3409"><param name="Name" value="m_width"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_table.html#a827dac18920a95b3e0ef006183514654"><param name="Name" value="render"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_table.html#ab3eb192b2a06e26349d651e4e6de063a"><param name="Name" value="sinks"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_table.html#a7f7c9dbfd3a6ebf5360cfd30e6d9ceb6"><param name="Name" value="Table"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_table.html#ac7541d139723d710fb7c39b1898d6e87"><param name="Name" value="~Table"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball.html#a88546ffd1a37b301a5c7085f3eabe8f0"><param name="Name" value="translate"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball.html#a88546ffd1a37b301a5c7085f3eabe8f0"><param name="Name" value="Ball"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball_decorator.html#aae30ba0b71629db797e0ea2639c5e32d"><param name="Name" value="BallDecorator"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_dialog.html#aa887f720e12758049bb9f1f1814759da"><param name="Name" value="tryRender"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_ui.html"><param name="Name" value="Ui"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="utils_8h.html"><param name="Name" value="utils.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="utils_8h.html#a98a7326f78465e4b4de3271285aae66d"><param name="Name" value="animFrameMS"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="utils_8h.html#a1aff699eae47d9fa6fe4cf7dbc13eb0f"><param name="Name" value="config_path"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="utils_8h.html#a886ca5636b50114abd8205e7b11b7f97"><param name="Name" value="DOUBLEINF"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="utils_8h.html#a51dda64bc6c1218767343462e8994aa0"><param name="Name" value="drawFrameMS"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_ball_smash_decorator_1_1_crumb.html#a819ee5d8334f427a3e88d50dd020ff41"><param name="Name" value="width"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_ball_smash_decorator_1_1_crumb.html#a819ee5d8334f427a3e88d50dd020ff41"><param name="Name" value="BallSmashDecorator::Crumb"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_ball_sparkle_decorator_1_1_sparkle.html#a6602f6013f4b6d436cf07a67c9a2b98d"><param name="Name" value="BallSparkleDecorator::Sparkle"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_abstract_stage_factory.html#a7a38775e61d51152b2331c83b6815404"><param name="Name" value="~AbstractStageFactory"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball.html#a78aa1f06b39fc9f81df82bef399c475c"><param name="Name" value="~Ball"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_ball_decorator.html#a0bf37b0a36b6db334d7073f01d7ce6e7"><param name="Name" value="~BallDecorator"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cue_ball.html#a4cd3c714cdfc9f5dd9aeaa325f01bb18"><param name="Name" value="~CueBall"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_dialog.html#a2a1fe6ef28513eed13bfcd3a4da83ccb"><param name="Name" value="~Dialog"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_game.html#ae3d112ca6e0e55150d2fdbc704474530"><param name="Name" value="~Game"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_game_builder.html#ad817a2588d910c2798dfb27808c29d48"><param name="Name" value="~GameBuilder"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_game_director.html#a33c93c8581be00967a3d6cf4ce5bc9aa"><param name="Name" value="~GameDirector"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_stage_one_builder.html#a1008b1e1d473b4c3e3db2fca1122d4b0"><param name="Name" value="~StageOneBuilder"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_stage_two_builder.html#a46f9a84e6bde6ed8504f3c3f9bad71f3"><param name="Name" value="~StageTwoBuilder"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_stage_two_table.html#a91ebe178acea5030255266e54adfa7a9"><param name="Name" value="~StageTwoTable"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_table.html#ac7541d139723d710fb7c39b1898d6e87"><param name="Name" value="~Table"></OBJECT>
+</UL>
+</BODY>
+</HTML>

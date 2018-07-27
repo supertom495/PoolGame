@@ -1,0 +1,211 @@
+\hypertarget{class_cue_ball}{}\section{Cue\+Ball Class Reference}
+\label{class_cue_ball}\index{Cue\+Ball@{Cue\+Ball}}
+
+
+The \mbox{\hyperlink{class_cue_ball}{Cue\+Ball}} class This handles some mouse interactions, and can control the position/velocity of the ball The ball will only be able to be controlled if the mouse click\&drag event originated at the position of the cue ball.  
+
+
+
+
+{\ttfamily \#include $<$balldecorator.\+h$>$}
+
+Inheritance diagram for Cue\+Ball\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_cue_ball}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_cue_ball_a9a5dd540283fcd724b7f1a3bce11fbf0}{Cue\+Ball}} (\mbox{\hyperlink{class_ball}{Ball}} $\ast$b)
+\item 
+\mbox{\hyperlink{class_cue_ball_a4cd3c714cdfc9f5dd9aeaa325f01bb18}{$\sim$\+Cue\+Ball}} ()
+\item 
+void \mbox{\hyperlink{class_cue_ball_a915a83205e4cfc720fbd884b045e2f81}{render}} (Q\+Painter \&painter, const Q\+Vector2D \&offset) override
+\begin{DoxyCompactList}\small\item\em render -\/ draw this ball and the drag indicator if applicable \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_cue_ball_aa6165c3e37540234b621402e02c1c97c}{set\+Start\+Mouse\+Pos}} (Q\+Vector2D p)
+\begin{DoxyCompactList}\small\item\em set\+Start\+Mouse\+Pos -\/ update where the start of the mouse drag is. Chooses not to draw IF the click is not within bounds \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_cue_ball_a297112b81595f308f717410f74d03d3c}{set\+End\+Mouse\+Pos}} (Q\+Vector2D p)
+\begin{DoxyCompactList}\small\item\em set\+End\+Mouse\+Pos -\/ update where the current end of the mouse drag is. Used when the mouse is moved, i.\+e. not released, but dragged. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_cue_ball_a8aafe19b8226adfcca93621baeef29f4}{set\+Release\+Pos}} (Q\+Vector2D p)
+\begin{DoxyCompactList}\small\item\em set\+Release\+Pos -\/ update where the end of the mouse drag is, \& release the click This will update the ball velocity if drawn. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_cue_ball_a7035345f6ba5c29052a5a1444e3f076f}{is\+Sub\+Ball\+Moving}} () const
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Q\+Vector2D \mbox{\hyperlink{class_cue_ball_a31c90da6dfe1fcaba9dae9a9860028b9}{m\+\_\+start\+Mouse\+Pos}}
+\item 
+Q\+Vector2D \mbox{\hyperlink{class_cue_ball_a2266dea32739c919dbd7848167536a4e}{m\+\_\+end\+Mouse\+Pos}}
+\item 
+bool \mbox{\hyperlink{class_cue_ball_a83f8528e08491dc39f22888ddd3bfdff}{is\+Drawing}} = false
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+The \mbox{\hyperlink{class_cue_ball}{Cue\+Ball}} class This handles some mouse interactions, and can control the position/velocity of the ball The ball will only be able to be controlled if the mouse click\&drag event originated at the position of the cue ball. 
+
+Definition at line 38 of file balldecorator.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_cue_ball_a9a5dd540283fcd724b7f1a3bce11fbf0}\label{class_cue_ball_a9a5dd540283fcd724b7f1a3bce11fbf0}} 
+\index{Cue\+Ball@{Cue\+Ball}!Cue\+Ball@{Cue\+Ball}}
+\index{Cue\+Ball@{Cue\+Ball}!Cue\+Ball@{Cue\+Ball}}
+\subsubsection{\texorpdfstring{Cue\+Ball()}{CueBall()}}
+{\footnotesize\ttfamily Cue\+Ball\+::\+Cue\+Ball (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_ball}{Ball}} $\ast$}]{b }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 50 of file balldecorator.\+h.
+
+\mbox{\Hypertarget{class_cue_ball_a4cd3c714cdfc9f5dd9aeaa325f01bb18}\label{class_cue_ball_a4cd3c714cdfc9f5dd9aeaa325f01bb18}} 
+\index{Cue\+Ball@{Cue\+Ball}!````~Cue\+Ball@{$\sim$\+Cue\+Ball}}
+\index{````~Cue\+Ball@{$\sim$\+Cue\+Ball}!Cue\+Ball@{Cue\+Ball}}
+\subsubsection{\texorpdfstring{$\sim$\+Cue\+Ball()}{~CueBall()}}
+{\footnotesize\ttfamily Cue\+Ball\+::$\sim$\+Cue\+Ball (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 51 of file balldecorator.\+h.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_cue_ball_a7035345f6ba5c29052a5a1444e3f076f}\label{class_cue_ball_a7035345f6ba5c29052a5a1444e3f076f}} 
+\index{Cue\+Ball@{Cue\+Ball}!is\+Sub\+Ball\+Moving@{is\+Sub\+Ball\+Moving}}
+\index{is\+Sub\+Ball\+Moving@{is\+Sub\+Ball\+Moving}!Cue\+Ball@{Cue\+Ball}}
+\subsubsection{\texorpdfstring{is\+Sub\+Ball\+Moving()}{isSubBallMoving()}}
+{\footnotesize\ttfamily bool Cue\+Ball\+::is\+Sub\+Ball\+Moving (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
+
+
+
+Definition at line 48 of file balldecorator.\+h.
+
+\mbox{\Hypertarget{class_cue_ball_a915a83205e4cfc720fbd884b045e2f81}\label{class_cue_ball_a915a83205e4cfc720fbd884b045e2f81}} 
+\index{Cue\+Ball@{Cue\+Ball}!render@{render}}
+\index{render@{render}!Cue\+Ball@{Cue\+Ball}}
+\subsubsection{\texorpdfstring{render()}{render()}}
+{\footnotesize\ttfamily void Cue\+Ball\+::render (\begin{DoxyParamCaption}\item[{Q\+Painter \&}]{painter,  }\item[{const Q\+Vector2D \&}]{offset }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+render -\/ draw this ball and the drag indicator if applicable 
+
+
+\begin{DoxyParams}{Parameters}
+{\em painter} & -\/ the brush to use to draw \\
+\hline
+{\em offset} & -\/ where our pos is relative to \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{class_ball_decorator_af8205f8033b2490ecd3365c24ff5cdeb}{Ball\+Decorator}}.
+
+
+
+Definition at line 4 of file balldecorator.\+cpp.
+
+\mbox{\Hypertarget{class_cue_ball_a297112b81595f308f717410f74d03d3c}\label{class_cue_ball_a297112b81595f308f717410f74d03d3c}} 
+\index{Cue\+Ball@{Cue\+Ball}!set\+End\+Mouse\+Pos@{set\+End\+Mouse\+Pos}}
+\index{set\+End\+Mouse\+Pos@{set\+End\+Mouse\+Pos}!Cue\+Ball@{Cue\+Ball}}
+\subsubsection{\texorpdfstring{set\+End\+Mouse\+Pos()}{setEndMousePos()}}
+{\footnotesize\ttfamily void Cue\+Ball\+::set\+End\+Mouse\+Pos (\begin{DoxyParamCaption}\item[{Q\+Vector2D}]{p }\end{DoxyParamCaption})}
+
+
+
+set\+End\+Mouse\+Pos -\/ update where the current end of the mouse drag is. Used when the mouse is moved, i.\+e. not released, but dragged. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 31 of file balldecorator.\+cpp.
+
+\mbox{\Hypertarget{class_cue_ball_a8aafe19b8226adfcca93621baeef29f4}\label{class_cue_ball_a8aafe19b8226adfcca93621baeef29f4}} 
+\index{Cue\+Ball@{Cue\+Ball}!set\+Release\+Pos@{set\+Release\+Pos}}
+\index{set\+Release\+Pos@{set\+Release\+Pos}!Cue\+Ball@{Cue\+Ball}}
+\subsubsection{\texorpdfstring{set\+Release\+Pos()}{setReleasePos()}}
+{\footnotesize\ttfamily void Cue\+Ball\+::set\+Release\+Pos (\begin{DoxyParamCaption}\item[{Q\+Vector2D}]{p }\end{DoxyParamCaption})}
+
+
+
+set\+Release\+Pos -\/ update where the end of the mouse drag is, \& release the click This will update the ball velocity if drawn. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 38 of file balldecorator.\+cpp.
+
+\mbox{\Hypertarget{class_cue_ball_aa6165c3e37540234b621402e02c1c97c}\label{class_cue_ball_aa6165c3e37540234b621402e02c1c97c}} 
+\index{Cue\+Ball@{Cue\+Ball}!set\+Start\+Mouse\+Pos@{set\+Start\+Mouse\+Pos}}
+\index{set\+Start\+Mouse\+Pos@{set\+Start\+Mouse\+Pos}!Cue\+Ball@{Cue\+Ball}}
+\subsubsection{\texorpdfstring{set\+Start\+Mouse\+Pos()}{setStartMousePos()}}
+{\footnotesize\ttfamily void Cue\+Ball\+::set\+Start\+Mouse\+Pos (\begin{DoxyParamCaption}\item[{Q\+Vector2D}]{p }\end{DoxyParamCaption})}
+
+
+
+set\+Start\+Mouse\+Pos -\/ update where the start of the mouse drag is. Chooses not to draw IF the click is not within bounds 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & -\/ the mouse click pos, relative to the Q\+Widget \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 13 of file balldecorator.\+cpp.
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_cue_ball_a83f8528e08491dc39f22888ddd3bfdff}\label{class_cue_ball_a83f8528e08491dc39f22888ddd3bfdff}} 
+\index{Cue\+Ball@{Cue\+Ball}!is\+Drawing@{is\+Drawing}}
+\index{is\+Drawing@{is\+Drawing}!Cue\+Ball@{Cue\+Ball}}
+\subsubsection{\texorpdfstring{is\+Drawing}{isDrawing}}
+{\footnotesize\ttfamily bool Cue\+Ball\+::is\+Drawing = false\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 45 of file balldecorator.\+h.
+
+\mbox{\Hypertarget{class_cue_ball_a2266dea32739c919dbd7848167536a4e}\label{class_cue_ball_a2266dea32739c919dbd7848167536a4e}} 
+\index{Cue\+Ball@{Cue\+Ball}!m\+\_\+end\+Mouse\+Pos@{m\+\_\+end\+Mouse\+Pos}}
+\index{m\+\_\+end\+Mouse\+Pos@{m\+\_\+end\+Mouse\+Pos}!Cue\+Ball@{Cue\+Ball}}
+\subsubsection{\texorpdfstring{m\+\_\+end\+Mouse\+Pos}{m\_endMousePos}}
+{\footnotesize\ttfamily Q\+Vector2D Cue\+Ball\+::m\+\_\+end\+Mouse\+Pos\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 43 of file balldecorator.\+h.
+
+\mbox{\Hypertarget{class_cue_ball_a31c90da6dfe1fcaba9dae9a9860028b9}\label{class_cue_ball_a31c90da6dfe1fcaba9dae9a9860028b9}} 
+\index{Cue\+Ball@{Cue\+Ball}!m\+\_\+start\+Mouse\+Pos@{m\+\_\+start\+Mouse\+Pos}}
+\index{m\+\_\+start\+Mouse\+Pos@{m\+\_\+start\+Mouse\+Pos}!Cue\+Ball@{Cue\+Ball}}
+\subsubsection{\texorpdfstring{m\+\_\+start\+Mouse\+Pos}{m\_startMousePos}}
+{\footnotesize\ttfamily Q\+Vector2D Cue\+Ball\+::m\+\_\+start\+Mouse\+Pos\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 41 of file balldecorator.\+h.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{balldecorator_8h}{balldecorator.\+h}}\item 
+\mbox{\hyperlink{balldecorator_8cpp}{balldecorator.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,184 @@
+\hypertarget{class_table}{}\section{Table Class Reference}
+\label{class_table}\index{Table@{Table}}
+
+
+{\ttfamily \#include $<$table.\+h$>$}
+
+Inheritance diagram for Table\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_table}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual \mbox{\hyperlink{class_table_ac7541d139723d710fb7c39b1898d6e87}{$\sim$\+Table}} ()
+\item 
+\mbox{\hyperlink{class_table_a7f7c9dbfd3a6ebf5360cfd30e6d9ceb6}{Table}} (int width, int height, Q\+Color colour, double friction)
+\item 
+virtual void \mbox{\hyperlink{class_table_a827dac18920a95b3e0ef006183514654}{render}} (Q\+Painter \&painter, const Q\+Vector2D \&offset)=0
+\begin{DoxyCompactList}\small\item\em render -\/ draw the table to screen using the specified painter \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_table_a767798fbd671c4c6805091a116439444}{get\+Width}} () const
+\item 
+int \mbox{\hyperlink{class_table_a3c40550751e65b563b3f1759bd12985c}{get\+Height}} () const
+\item 
+double \mbox{\hyperlink{class_table_a250960dffeb3fa744bf098a49ef78d8a}{get\+Friction}} () const
+\item 
+virtual bool \mbox{\hyperlink{class_table_ab3eb192b2a06e26349d651e4e6de063a}{sinks}} (\mbox{\hyperlink{class_ball}{Ball}} $\ast$)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_table_a1e99922a6f86bbbe649c4705590b3409}{m\+\_\+width}}
+\item 
+int \mbox{\hyperlink{class_table_af1f22da42093769f53dcc3ebe7ea40c0}{m\+\_\+height}}
+\item 
+Q\+Brush \mbox{\hyperlink{class_table_a9c8db37610dfe62b570c7a386db69939}{m\+\_\+brush}}
+\item 
+double \mbox{\hyperlink{class_table_aa26465bb9074d6f07dec1a41a06a7d62}{m\+\_\+friction}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 10 of file table.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_table_ac7541d139723d710fb7c39b1898d6e87}\label{class_table_ac7541d139723d710fb7c39b1898d6e87}} 
+\index{Table@{Table}!````~Table@{$\sim$\+Table}}
+\index{````~Table@{$\sim$\+Table}!Table@{Table}}
+\subsubsection{\texorpdfstring{$\sim$\+Table()}{~Table()}}
+{\footnotesize\ttfamily virtual Table\+::$\sim$\+Table (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Definition at line 17 of file table.\+h.
+
+\mbox{\Hypertarget{class_table_a7f7c9dbfd3a6ebf5360cfd30e6d9ceb6}\label{class_table_a7f7c9dbfd3a6ebf5360cfd30e6d9ceb6}} 
+\index{Table@{Table}!Table@{Table}}
+\index{Table@{Table}!Table@{Table}}
+\subsubsection{\texorpdfstring{Table()}{Table()}}
+{\footnotesize\ttfamily Table\+::\+Table (\begin{DoxyParamCaption}\item[{int}]{width,  }\item[{int}]{height,  }\item[{Q\+Color}]{colour,  }\item[{double}]{friction }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 18 of file table.\+h.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_table_a250960dffeb3fa744bf098a49ef78d8a}\label{class_table_a250960dffeb3fa744bf098a49ef78d8a}} 
+\index{Table@{Table}!get\+Friction@{get\+Friction}}
+\index{get\+Friction@{get\+Friction}!Table@{Table}}
+\subsubsection{\texorpdfstring{get\+Friction()}{getFriction()}}
+{\footnotesize\ttfamily double Table\+::get\+Friction (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 29 of file table.\+h.
+
+\mbox{\Hypertarget{class_table_a3c40550751e65b563b3f1759bd12985c}\label{class_table_a3c40550751e65b563b3f1759bd12985c}} 
+\index{Table@{Table}!get\+Height@{get\+Height}}
+\index{get\+Height@{get\+Height}!Table@{Table}}
+\subsubsection{\texorpdfstring{get\+Height()}{getHeight()}}
+{\footnotesize\ttfamily int Table\+::get\+Height (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 28 of file table.\+h.
+
+\mbox{\Hypertarget{class_table_a767798fbd671c4c6805091a116439444}\label{class_table_a767798fbd671c4c6805091a116439444}} 
+\index{Table@{Table}!get\+Width@{get\+Width}}
+\index{get\+Width@{get\+Width}!Table@{Table}}
+\subsubsection{\texorpdfstring{get\+Width()}{getWidth()}}
+{\footnotesize\ttfamily int Table\+::get\+Width (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 27 of file table.\+h.
+
+\mbox{\Hypertarget{class_table_a827dac18920a95b3e0ef006183514654}\label{class_table_a827dac18920a95b3e0ef006183514654}} 
+\index{Table@{Table}!render@{render}}
+\index{render@{render}!Table@{Table}}
+\subsubsection{\texorpdfstring{render()}{render()}}
+{\footnotesize\ttfamily virtual void Table\+::render (\begin{DoxyParamCaption}\item[{Q\+Painter \&}]{painter,  }\item[{const Q\+Vector2D \&}]{offset }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+render -\/ draw the table to screen using the specified painter 
+
+
+\begin{DoxyParams}{Parameters}
+{\em painter} & -\/ painter to use \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{class_stage_two_table_ad19f7aa333b65d84b67ce2e55330a669}{Stage\+Two\+Table}}, and \mbox{\hyperlink{class_stage_one_table_a1f6dac59ce45c370f94fb3710f744ceb}{Stage\+One\+Table}}.
+
+\mbox{\Hypertarget{class_table_ab3eb192b2a06e26349d651e4e6de063a}\label{class_table_ab3eb192b2a06e26349d651e4e6de063a}} 
+\index{Table@{Table}!sinks@{sinks}}
+\index{sinks@{sinks}!Table@{Table}}
+\subsubsection{\texorpdfstring{sinks()}{sinks()}}
+{\footnotesize\ttfamily virtual bool Table\+::sinks (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_ball}{Ball}} $\ast$}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{class_stage_two_table_a3e015671be449da741adaf86e00ec844}{Stage\+Two\+Table}}.
+
+
+
+Definition at line 31 of file table.\+h.
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_table_a9c8db37610dfe62b570c7a386db69939}\label{class_table_a9c8db37610dfe62b570c7a386db69939}} 
+\index{Table@{Table}!m\+\_\+brush@{m\+\_\+brush}}
+\index{m\+\_\+brush@{m\+\_\+brush}!Table@{Table}}
+\subsubsection{\texorpdfstring{m\+\_\+brush}{m\_brush}}
+{\footnotesize\ttfamily Q\+Brush Table\+::m\+\_\+brush\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 14 of file table.\+h.
+
+\mbox{\Hypertarget{class_table_aa26465bb9074d6f07dec1a41a06a7d62}\label{class_table_aa26465bb9074d6f07dec1a41a06a7d62}} 
+\index{Table@{Table}!m\+\_\+friction@{m\+\_\+friction}}
+\index{m\+\_\+friction@{m\+\_\+friction}!Table@{Table}}
+\subsubsection{\texorpdfstring{m\+\_\+friction}{m\_friction}}
+{\footnotesize\ttfamily double Table\+::m\+\_\+friction\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 15 of file table.\+h.
+
+\mbox{\Hypertarget{class_table_af1f22da42093769f53dcc3ebe7ea40c0}\label{class_table_af1f22da42093769f53dcc3ebe7ea40c0}} 
+\index{Table@{Table}!m\+\_\+height@{m\+\_\+height}}
+\index{m\+\_\+height@{m\+\_\+height}!Table@{Table}}
+\subsubsection{\texorpdfstring{m\+\_\+height}{m\_height}}
+{\footnotesize\ttfamily int Table\+::m\+\_\+height\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 13 of file table.\+h.
+
+\mbox{\Hypertarget{class_table_a1e99922a6f86bbbe649c4705590b3409}\label{class_table_a1e99922a6f86bbbe649c4705590b3409}} 
+\index{Table@{Table}!m\+\_\+width@{m\+\_\+width}}
+\index{m\+\_\+width@{m\+\_\+width}!Table@{Table}}
+\subsubsection{\texorpdfstring{m\+\_\+width}{m\_width}}
+{\footnotesize\ttfamily int Table\+::m\+\_\+width\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 12 of file table.\+h.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{table_8h}{table.\+h}}\end{DoxyCompactItemize}

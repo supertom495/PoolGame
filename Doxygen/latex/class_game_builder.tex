@@ -1,0 +1,165 @@
+\hypertarget{class_game_builder}{}\section{Game\+Builder Class Reference}
+\label{class_game_builder}\index{Game\+Builder@{Game\+Builder}}
+
+
+{\ttfamily \#include $<$gamebuilder.\+h$>$}
+
+Inheritance diagram for Game\+Builder\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_game_builder}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual \mbox{\hyperlink{class_game_builder_ad817a2588d910c2798dfb27808c29d48}{$\sim$\+Game\+Builder}} ()
+\item 
+\mbox{\hyperlink{class_game_builder_a1540d75dc9f7beb42a95bbc083f86ae1}{Game\+Builder}} (\mbox{\hyperlink{class_abstract_stage_factory}{Abstract\+Stage\+Factory}} $\ast$factory)
+\item 
+virtual void \mbox{\hyperlink{class_game_builder_a836186637bd2f7844f7dfac0135d833b}{add\+Ball}} (Q\+Json\+Object \&ball\+Data)=0
+\begin{DoxyCompactList}\small\item\em add\+Ball creates a ball to the current game being buil \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_game_builder_a65fb629009c18956a8d592352eda1eb5}{add\+Table}} (Q\+Json\+Object \&table\+Data)=0
+\begin{DoxyCompactList}\small\item\em add\+Table creates a table to the current game being built \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{class_game}{Game}} $\ast$ \mbox{\hyperlink{class_game_builder_a490e3dbb7f8289edb2a080a3383f8607}{get\+Result}} ()
+\begin{DoxyCompactList}\small\item\em get\+Result -\/ retrieve the built object \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_abstract_stage_factory}{Abstract\+Stage\+Factory}} $\ast$ \mbox{\hyperlink{class_game_builder_a2b8da37dc88d521fc01841a2c308508f}{m\+\_\+factory}} = nullptr
+\item 
+std\+::vector$<$ \mbox{\hyperlink{class_ball}{Ball}} $\ast$ $>$ $\ast$ \mbox{\hyperlink{class_game_builder_a00bf40f2a9c4c72ff8e9bc94201bb681}{m\+\_\+building\+Balls}} = nullptr
+\item 
+\mbox{\hyperlink{class_table}{Table}} $\ast$ \mbox{\hyperlink{class_game_builder_a0fe16583df85f0360cfe9b06a7ea3aee}{m\+\_\+building\+Table}} = nullptr
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 6 of file gamebuilder.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_game_builder_ad817a2588d910c2798dfb27808c29d48}\label{class_game_builder_ad817a2588d910c2798dfb27808c29d48}} 
+\index{Game\+Builder@{Game\+Builder}!````~Game\+Builder@{$\sim$\+Game\+Builder}}
+\index{````~Game\+Builder@{$\sim$\+Game\+Builder}!Game\+Builder@{Game\+Builder}}
+\subsubsection{\texorpdfstring{$\sim$\+Game\+Builder()}{~GameBuilder()}}
+{\footnotesize\ttfamily Game\+Builder\+::$\sim$\+Game\+Builder (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Definition at line 9 of file gamebuilder.\+cpp.
+
+\mbox{\Hypertarget{class_game_builder_a1540d75dc9f7beb42a95bbc083f86ae1}\label{class_game_builder_a1540d75dc9f7beb42a95bbc083f86ae1}} 
+\index{Game\+Builder@{Game\+Builder}!Game\+Builder@{Game\+Builder}}
+\index{Game\+Builder@{Game\+Builder}!Game\+Builder@{Game\+Builder}}
+\subsubsection{\texorpdfstring{Game\+Builder()}{GameBuilder()}}
+{\footnotesize\ttfamily Game\+Builder\+::\+Game\+Builder (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_abstract_stage_factory}{Abstract\+Stage\+Factory}} $\ast$}]{factory }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 13 of file gamebuilder.\+h.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_game_builder_a836186637bd2f7844f7dfac0135d833b}\label{class_game_builder_a836186637bd2f7844f7dfac0135d833b}} 
+\index{Game\+Builder@{Game\+Builder}!add\+Ball@{add\+Ball}}
+\index{add\+Ball@{add\+Ball}!Game\+Builder@{Game\+Builder}}
+\subsubsection{\texorpdfstring{add\+Ball()}{addBall()}}
+{\footnotesize\ttfamily virtual void Game\+Builder\+::add\+Ball (\begin{DoxyParamCaption}\item[{Q\+Json\+Object \&}]{ball\+Data }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+add\+Ball creates a ball to the current game being buil 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ball\+Data} & -\/ json object that is simply an element of the array of balls provided in the config \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{class_stage_one_builder_a9d7931aab89afcfa0b2c23da6fb10bfb}{Stage\+One\+Builder}}, and \mbox{\hyperlink{class_stage_two_builder_a8b2b783294c26b5f40d16bdd54d86301}{Stage\+Two\+Builder}}.
+
+\mbox{\Hypertarget{class_game_builder_a65fb629009c18956a8d592352eda1eb5}\label{class_game_builder_a65fb629009c18956a8d592352eda1eb5}} 
+\index{Game\+Builder@{Game\+Builder}!add\+Table@{add\+Table}}
+\index{add\+Table@{add\+Table}!Game\+Builder@{Game\+Builder}}
+\subsubsection{\texorpdfstring{add\+Table()}{addTable()}}
+{\footnotesize\ttfamily virtual void Game\+Builder\+::add\+Table (\begin{DoxyParamCaption}\item[{Q\+Json\+Object \&}]{table\+Data }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+add\+Table creates a table to the current game being built 
+
+
+\begin{DoxyParams}{Parameters}
+{\em table\+Data} & -\/ json object that contains all properties of the table \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{class_stage_one_builder_ac8f35ec11ebe31010410bc50b0149ce9}{Stage\+One\+Builder}}, and \mbox{\hyperlink{class_stage_two_builder_a7326ee514e752cab6d994352f5ef68e0}{Stage\+Two\+Builder}}.
+
+\mbox{\Hypertarget{class_game_builder_a490e3dbb7f8289edb2a080a3383f8607}\label{class_game_builder_a490e3dbb7f8289edb2a080a3383f8607}} 
+\index{Game\+Builder@{Game\+Builder}!get\+Result@{get\+Result}}
+\index{get\+Result@{get\+Result}!Game\+Builder@{Game\+Builder}}
+\subsubsection{\texorpdfstring{get\+Result()}{getResult()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_game}{Game}} $\ast$ Game\+Builder\+::get\+Result (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+get\+Result -\/ retrieve the built object 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Reimplemented in \mbox{\hyperlink{class_stage_two_builder_ac40c00c49b18b7c4f83f4474a8cd9c73}{Stage\+Two\+Builder}}.
+
+
+
+Definition at line 19 of file gamebuilder.\+cpp.
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_game_builder_a00bf40f2a9c4c72ff8e9bc94201bb681}\label{class_game_builder_a00bf40f2a9c4c72ff8e9bc94201bb681}} 
+\index{Game\+Builder@{Game\+Builder}!m\+\_\+building\+Balls@{m\+\_\+building\+Balls}}
+\index{m\+\_\+building\+Balls@{m\+\_\+building\+Balls}!Game\+Builder@{Game\+Builder}}
+\subsubsection{\texorpdfstring{m\+\_\+building\+Balls}{m\_buildingBalls}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{class_ball}{Ball}}$\ast$$>$$\ast$ Game\+Builder\+::m\+\_\+building\+Balls = nullptr\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 9 of file gamebuilder.\+h.
+
+\mbox{\Hypertarget{class_game_builder_a0fe16583df85f0360cfe9b06a7ea3aee}\label{class_game_builder_a0fe16583df85f0360cfe9b06a7ea3aee}} 
+\index{Game\+Builder@{Game\+Builder}!m\+\_\+building\+Table@{m\+\_\+building\+Table}}
+\index{m\+\_\+building\+Table@{m\+\_\+building\+Table}!Game\+Builder@{Game\+Builder}}
+\subsubsection{\texorpdfstring{m\+\_\+building\+Table}{m\_buildingTable}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_table}{Table}}$\ast$ Game\+Builder\+::m\+\_\+building\+Table = nullptr\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 10 of file gamebuilder.\+h.
+
+\mbox{\Hypertarget{class_game_builder_a2b8da37dc88d521fc01841a2c308508f}\label{class_game_builder_a2b8da37dc88d521fc01841a2c308508f}} 
+\index{Game\+Builder@{Game\+Builder}!m\+\_\+factory@{m\+\_\+factory}}
+\index{m\+\_\+factory@{m\+\_\+factory}!Game\+Builder@{Game\+Builder}}
+\subsubsection{\texorpdfstring{m\+\_\+factory}{m\_factory}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_abstract_stage_factory}{Abstract\+Stage\+Factory}}$\ast$ Game\+Builder\+::m\+\_\+factory = nullptr\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 8 of file gamebuilder.\+h.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{gamebuilder_8h}{gamebuilder.\+h}}\item 
+\mbox{\hyperlink{gamebuilder_8cpp}{gamebuilder.\+cpp}}\end{DoxyCompactItemize}
